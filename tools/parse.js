@@ -22,14 +22,14 @@ const tryTranslate = function (fileName, en, idCol = 0, contentCol = 1, outputCo
 
   let id = csv.en.indexOf(enClean(en))
   if (!id) {
-    console.warn(`Failed to locate "${en}" from "${fileName}"`)
+    // console.warn(`Failed to locate "${en}" from "${fileName}"`)
     return null
   }
 
   if (csv.cn[id]) {
     return csv.cn[id][outputCol]
   } else {
-    console.warn(`No matching id #${id} for "${enClean(en)}" in "${fileName}"`)
+    // console.warn(`No matching id #${id} for "${enClean(en)}" in "${fileName}"`)
     return null
   }
 }
@@ -89,7 +89,7 @@ const parseLocation = function (location) {
           text: `完成 ${match[1]} 种假面狂欢关卡后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]`
         }
       }
-      console.log(place, mob)
+      // console.log(place, mob)
     }
 
     let placeType = tryTranslate('CompleteJournal', place.trim(), 0, 6, 5)
@@ -114,9 +114,8 @@ const parseLocation = function (location) {
           name: placeName,
           mob: tryTranslate('BNpcName', mob.trim())
         }
-        break
       default:
-        console.log(place, mob)
+        // console.log(place, mob)
         break
     }
   })
@@ -139,13 +138,13 @@ const content = fs.readFileSync('./spells.csv', 'utf-8')
 // ],
 let spells = readCsv(content, [
   'no',
-  ,
-  ,
+  null,
+  null,
   'spell',
-  /*'aspect'*/,
-  /*'rank'*/,
-  /*'description'*/,
-  /*'notes'*/,
+  null, // 'aspect',
+  null, // 'rank',
+  null, // 'description',
+  null, // 'notes',
   'location',
   'level',
 ])
@@ -153,7 +152,7 @@ let spells = readCsv(content, [
 // remove table header
 spells.shift()
 
-spells = spells.map((row, i) => {
+spells = spells.map((row) => {
   if (override[row.no]) {
     Object.assign(row, override[row.no])
   }

@@ -37,8 +37,10 @@ export default {
     renderMethod (method) {
       switch (method.type) {
         case 'map':
-          let pos = method.position
-          return `${method.map} ${method.rank ? `[${method.rank}]` : ''}${pos.length ? `(x:${pos[0]}, y:${pos[1]}${pos[2] ? `, z:${pos[2]}` : ''})` : ''} - ${method.mob}`
+          {
+            let pos = method.position
+            return `${method.map} ${method.rank ? `[${method.rank}]` : ''}${pos.length ? `(x:${pos[0]}, y:${pos[1]}${pos[2] ? `, z:${pos[2]}` : ''})` : ''} - ${method.mob}`
+          }
         case 'raid':
         case 'dungeon':
         case 'trail':
