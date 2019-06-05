@@ -2,95 +2,81 @@
   {
     "no": "1",
     "spell": "水炮",
-    "aspect": "Water",
-    "rank": "★",
-    "description": "Delivers water damage with a potency of 120.",
-    "notes": "This spell, easily mastered via defeat of a kraken, fires a concentrated burst of water at one's opponent. As the liquid itself is conjured by manipulating aether to condense moisture in the air, the technique remains effective regardless of whether or not its caster has access to a body of water.",
     "location": "Default",
-    "level": "1",
+    "level": 1,
     "icon": "Water_Cannon.png",
     "method": [
       {
         "type": "special",
-        "text": "自动习得"
+        "text": "自动习得",
+        "level": 1
       }
     ]
   },
   {
     "no": "2",
     "spell": "火炎放射",
-    "aspect": "Fire",
-    "rank": "★★★",
-    "description": "Deals fire damage with a potency of 130 to all enemies in a cone before you.",
-    "notes": "As with thaumaturgical fire spells, the jet of flame produced by this technique manifests from a burst of fire-aspected aether. Certain weapons produce similar effects; however, this is not through aetherial manipulation, but rather the copious use of highly flammable liquid.",
     "location": "Brayflox's Longstop (Hard) — Gobmachine G-VI",
-    "level": "50",
+    "level": 50,
     "icon": "Flame_Thrower.png",
     "method": [
       {
         "type": "dungeon",
         "name": "纷争要地布雷福洛克斯野营地",
-        "mob": "6号哥布林坦克"
+        "mob": "6号哥布林坦克",
+        "level": 50
       }
     ]
   },
   {
     "no": "3",
     "spell": "水流吐息",
-    "aspect": "Water",
-    "rank": "★★★★",
-    "description": "Deals water damage with a potency of 90 to all enemies in a cone before you.",
-    "notes": "The most quintessential of water-aspected blue magicks. A competent mage will not only use its bubbles to smother nearby enemies, but also incorporate poisons, sealing the fates of any survivors.",
     "location": "The Dragon's Neck — Ultros\nThe Whorleater (Hard) — Leviathan",
-    "level": "50",
+    "level": 50,
     "icon": "Aqua_Breath.png",
     "method": [
       {
         "type": "trail",
         "name": "艾玛吉娜杯斗技大会决赛",
-        "mob": "奥尔特罗斯"
+        "mob": "奥尔特罗斯",
+        "level": 50
       },
       {
         "type": "trail",
         "name": "利维亚桑歼灭战",
-        "mob": "利维亚桑"
+        "mob": "利维亚桑",
+        "level": 50
       }
     ]
   },
   {
     "no": "4",
     "spell": "狂乱",
-    "aspect": "Blunt",
-    "rank": "★★★★",
-    "description": "Delivers a jumping attack with a potency of 80 to target and all enemies nearby it. Cannot be executed while bound.",
-    "notes": "Replicating this technique requires magically altering one's own state of mind to mimic that of a zu. The flying strike that results surpasses normal physical limitations, but requires dispensing with caution in favor of an all-consuming rage─the sensible mage will shield herself with aether first.",
     "location": "Pharos Sirius — Zu",
-    "level": "50",
+    "level": 50,
     "icon": "Flying_Frenzy.png",
     "method": [
       {
         "type": "dungeon",
         "name": "领航明灯天狼星灯塔",
-        "mob": "祖"
+        "mob": "祖",
+        "level": 50
       }
     ]
   },
   {
     "no": "5",
     "spell": "钻头炮",
-    "aspect": "Piercing",
-    "rank": "★★",
-    "description": "Deals unaspected damage with a potency of 120 to all enemies in a straight line before you.",
-    "notes": "This technique mimics the Drill Cannons of machina by winding aetherial currents until they resemble rapidly spinning projectiles. Like the physical drills upon which they are patterned, these projectiles excel at penetrating stone.",
     "location": "Northern Thanalan (Reverse Engineering FATE) — Abandoned Vanguard\nNorthern Thanalan (x16,y15) — Magitek Vanguard H-2",
-    "level": "46",
+    "level": 46,
     "icon": "Drill_Cannons.png",
     "method": [
       {
         "type": "fate",
         "map": "北萨纳兰",
         "name": "逆向工程",
-        "mob": "废弃的魔导先锋"
+        "mob": "废弃的魔导先锋",
+        "level": 46
       },
       {
         "type": "map",
@@ -101,42 +87,37 @@
           15,
           0
         ],
-        "mob": "魔导先锋强化型"
+        "mob": "魔导先锋强化型",
+        "level": 46
       }
     ]
   },
   {
     "no": "6",
     "spell": "高压电流",
-    "aspect": "Lightning",
-    "rank": "★★★★",
-    "description": "Deals lightning damage with a potency of 90 to all nearby enemies.",
-    "notes": "An industrial form of machina-based aetherial manipulation developed and adapted by the Allagan Empire. Through the compression of ambient lightning-aspected aether, the caster (or casting machina) floods the vicinity with highly charged arcs of electricity.",
     "location": "The Binding Coil of Bahamut - Turn 1 — ADS\nThe Binding Coil of Bahamut - Turn 2 — ADS",
-    "level": "50",
+    "level": 50,
     "icon": "High_Voltage.png",
     "method": [
       {
         "type": "raid",
         "name": "巴哈姆特大迷宫 邂逅之章1",
-        "mob": "自卫系统"
+        "mob": "自卫系统",
+        "level": 50
       },
       {
         "type": "raid",
         "name": "巴哈姆特大迷宫 邂逅之章2",
-        "mob": "自卫系统"
+        "mob": "自卫系统",
+        "level": 50
       }
     ]
   },
   {
     "no": "7",
     "spell": "若隐若现",
-    "aspect": "None",
-    "rank": "★",
-    "description": "Move quickly to the specified location. Cannot use when bound.",
-    "notes": "To utilize this simple teleportation magic, casters must create an aetherial current upon which to travel between their location and the desired position. Though this is only effective over short distances, it is nevertheless an invaluable tool in the event that one needs to beat a hasty retreat.",
     "location": "Northern Thanalan (Rank B Elite Mark) — Flame Sergeant Dalvag",
-    "level": "50",
+    "level": 50,
     "icon": "Loom.png",
     "method": [
       {
@@ -144,19 +125,16 @@
         "map": "北萨纳兰",
         "rank": "B",
         "position": [],
-        "mob": "永恒不灭的菲兰德副耀士"
+        "mob": "永恒不灭的菲兰德副耀士",
+        "level": 50
       }
     ]
   },
   {
     "no": "8",
     "spell": "终极针",
-    "aspect": "Piercing",
-    "rank": "★★",
-    "description": "Deals unaspected damage with a potency of 1,500 while incapacitating self.",
-    "notes": "A desperate mage's last resort, this technique converts all of the user's life force to an aetherial poison that is then injected into a single adversary. Suffice it to say that, as with the physical sting of the wespe, it should not be relied upon in but the most dire of circumstances.",
     "location": "Middle La Noscea (x15,y15) — Killer Wespe",
-    "level": "13",
+    "level": 13,
     "icon": "Final_Sting.png",
     "method": [
       {
@@ -168,55 +146,46 @@
           15,
           0
         ],
-        "mob": "杀手胡蜂"
+        "mob": "杀手胡蜂",
+        "level": 13
       }
     ]
   },
   {
     "no": "9",
     "spell": "苦闷之歌",
-    "aspect": "None",
-    "rank": "★★",
-    "description": "Deals unaspected damage with a potency of 50.",
-    "notes": "Favored by sirens, the Song of Torment carries in its melody a malicious enchantment. It ensnares the listener's spirit, inducing phantom pain that soon becomes physical as the body struggles to process the mind's trauma.",
     "location": "Pharos Sirius — Siren",
-    "level": "50",
+    "level": 50,
     "icon": "Song_of_Torment.png",
     "method": [
       {
         "type": "dungeon",
         "name": "领航明灯天狼星灯塔",
-        "mob": "塞壬"
+        "mob": "塞壬",
+        "level": 50
       }
     ]
   },
   {
     "no": "10",
     "spell": "怒视",
-    "aspect": "Lightning",
-    "rank": "★★★★",
-    "description": "Deals lightning damage with a potency of 130 to all enemies in a straight line before you.",
-    "notes": "Perhaps best known as the unsettling hallmark of the cyclops, Glower involves funneling aether through the eyes as if they were arcane circles─much like its sister spell, The Look. Its highly concentrated aether strikes foes like a levinbolt, leaving their skin singed and muscles seizing.",
     "location": "The Aurum Vale — Coincounter",
-    "level": "47",
+    "level": 47,
     "icon": "Glower.png",
     "method": [
       {
         "type": "dungeon",
         "name": "毒雾洞窟黄金谷",
-        "mob": "数币巨人"
+        "mob": "数币巨人",
+        "level": 47
       }
     ]
   },
   {
     "no": "11",
     "spell": "平原震裂",
-    "aspect": "Earth",
-    "rank": "★★",
-    "description": "Increases magic damage taken by all nearby enemies by 30%. This action does not share a recast timer with any other actions.",
-    "notes": "A variant on a salamander specialty, Peculiar Light disperses radiance naturally emitted during spellcasting into a half-globe, clouding victims' vision. Thus unbeknownst to them, malignant aether lurking within the rapidly reflecting beams renders them more susceptible to further aetherial assaults.",
     "location": "North Shroud (19x,28y) — Clay Golem\nCopperbell Mines (Hard) — Gogmagolem",
-    "level": "28\n50",
+    "level": 28,
     "icon": "Plaincracker.png",
     "method": [
       {
@@ -228,24 +197,22 @@
           28,
           0
         ],
-        "mob": "泥土巨像"
+        "mob": "泥土巨像",
+        "level": 28
       },
       {
         "type": "dungeon",
         "name": "骚乱坑道铜铃铜山",
-        "mob": "哥革巨像"
+        "mob": "哥革巨像",
+        "level": 50
       }
     ]
   },
   {
     "no": "12",
     "spell": "怒发冲冠",
-    "aspect": "None",
-    "rank": "★★",
-    "description": "Increases the potency of the next spell cast by 50%.",
-    "notes": "Instinctive to beastkin, Bristle channels sheer animalistic rage into heightened spiritual and physical power. The blue mage will find that she can adapt this technique to increase her spells' potency.",
     "location": "East Shroud (x18,y24) — Wild Boar",
-    "level": "20",
+    "level": 20,
     "icon": "Bristle.png",
     "method": [
       {
@@ -257,77 +224,66 @@
           24,
           0
         ],
-        "mob": "狂野疣猪"
+        "mob": "狂野疣猪",
+        "level": 20
       }
     ]
   },
   {
     "no": "13",
     "spell": "白风",
-    "aspect": "None",
-    "rank": "★★★",
-    "description": "Restores own HP and the HP of all nearby party members by an amount equal to your current HP.",
-    "notes": "White Wind imbues a localized current of air with purified aether, distributing its curative effects throughout the vicinity. Though powerful for such a simple spell, the purification of sufficient aether requires significant magical exertion on the part of the caster, and thus should be used sparingly.",
     "location": "Learn 10 spells and obtain a Whalaqee Totem from Wayward Gaheel Ja, in Ul'dah — Steps of Thal  (x12.5,y12.9).",
-    "level": "1",
+    "level": 1,
     "icon": "White_Wind.png",
     "method": [
       {
         "type": "special",
-        "text": "学习 10 个技能后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]"
+        "text": "学习 10 个技能后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]",
+        "level": 1
       }
     ]
   },
   {
     "no": "14",
     "spell": "5级石化",
-    "aspect": "None",
-    "rank": "★★",
-    "description": "Petrifies all enemies in a cone before you. Chance of successful attack is low. Enemy level must be a multiple of 5. Has no effect on enemies whose level is higher than your own.",
-    "notes": "This curse, commonly used by ahrimans and similar voidsent, takes advantage of the hubris that living creatures tend to fall prey to upon reaching certain milestones in development, targeting mental weaknesses to give foes a paralyzing reminder of their own fallibility.",
     "location": "Haukke Manor — Manor Sentry\nHaukke Manor (Hard) — Manor Sentry",
-    "level": "28\n50",
+    "level": 28,
     "icon": "Level_5_Petrify.png",
     "method": [
       {
         "type": "dungeon",
         "name": "名门府邸静语庄园",
-        "mob": "庄园的守卫"
+        "mob": "庄园的守卫",
+        "level": 28
       },
       {
         "type": "dungeon",
         "name": "恶灵府邸静语庄园",
-        "mob": "庄园的守卫"
+        "mob": "庄园的守卫",
+        "level": 50
       }
     ]
   },
   {
     "no": "15",
     "spell": "锋利菜刀",
-    "aspect": "Slashing",
-    "rank": "★★★★",
-    "description": "Deals unaspected damage with a potency of 120.",
-    "notes": "At this point, tonberries' predilection for sharpened knives is well known. By manipulating aether to harness feelings of resentment, one hones a keener blade for driving into the heart of the enemy. Naturally, being beset by this attack while unable to move is a uniquely harrowing experience.",
     "location": "The Wanderer's Palace — Tonberry King",
-    "level": "50",
+    "level": 50,
     "icon": "Sharpened_Knife.png",
     "method": [
       {
         "type": "dungeon",
         "name": "神灵圣域放浪神古神殿",
-        "mob": "冬贝利王"
+        "mob": "冬贝利王",
+        "level": 50
       }
     ]
   },
   {
     "no": "16",
     "spell": "冰棘屏障",
-    "aspect": "Fire",
-    "rank": "★",
-    "description": "Counters enemies with ice damage every time you suffer physical damage.",
-    "notes": "Favored by certain types of voidsent, this spell─technically a curse, cast upon oneself─converts the malice of attackers into aetherial spikes of ice, impaling them each time they strike. The more furious their flurries, the more pain they cause themselves─poetic justice, one might say.",
     "location": "Central Shroud (x27,y24) — Trickster Imp",
-    "level": "9",
+    "level": 9,
     "icon": "Ice_Spikes.png",
     "method": [
       {
@@ -339,19 +295,16 @@
           24,
           0
         ],
-        "mob": "捣蛋小鬼"
+        "mob": "捣蛋小鬼",
+        "level": 9
       }
     ]
   },
   {
     "no": "17",
     "spell": "吸血",
-    "aspect": "None",
-    "rank": "★",
-    "description": "Deals unaspected damage with a potency of 20.",
-    "notes": "Through the draining of blood, this spell saps a foe's aether, a portion of which is then absorbed by the caster. In nature, such habits first appeared in creatures such as bats and chigoes, who naturalists theorize developed the ability to absorb nutrients via blood over the course of centuries.",
     "location": "Lower La Noscea (x27,y16) — Cave Bat",
-    "level": "7",
+    "level": 7,
     "icon": "Blood_Drain.png",
     "method": [
       {
@@ -363,19 +316,16 @@
           16,
           0
         ],
-        "mob": "洞穴蝙蝠"
+        "mob": "洞穴蝙蝠",
+        "level": 7
       }
     ]
   },
   {
     "no": "18",
     "spell": "橡果炸弹",
-    "aspect": "Fire",
-    "rank": "★",
-    "description": "Puts target and all nearby enemies to sleep. Cancels auto-attack upon execution.",
-    "notes": "This technique pelts foes with seedlike aetherial orbs, which then explode to release the soporific within. Scholars believe that similar defense mechanisms were originally developed by treants and other species vulnerable to vilekin in order to prevent their boring of holes and leeching of sap.",
     "location": "North Shroud (x27,y28) — Treant Sapling",
-    "level": "12",
+    "level": 12,
     "icon": "Acorn_Bomb.png",
     "method": [
       {
@@ -387,19 +337,16 @@
           28,
           0
         ],
-        "mob": "幼体树精"
+        "mob": "幼体树精",
+        "level": 12
       }
     ]
   },
   {
     "no": "19",
     "spell": "投弹",
-    "aspect": "None",
-    "rank": "★★",
-    "description": "Deals fire damage with a potency of 110 to all enemies at a designated location.",
-    "notes": "This spell creates an aetherial replica of the sort of bomb preferred by goblins. Of course, goblin bombs acquire their combustive force through the use of magically enhanced gunpowder, so mimicking this effect with aether alone requires no small amount of effort, but the results are... explosive.",
     "location": "Middle La Noscea (x23,y21) — Goblin Fisher\nMiddle La Noscea (x23,y21) — Goblin Gambler",
-    "level": "5",
+    "level": 5,
     "icon": "Bomb_Toss.png",
     "method": [
       {
@@ -411,7 +358,8 @@
           21,
           0
         ],
-        "mob": "哥布林鱼师"
+        "mob": "哥布林鱼师",
+        "level": 5
       },
       {
         "type": "map",
@@ -422,36 +370,30 @@
           21,
           0
         ],
-        "mob": "哥布林赌徒"
+        "mob": "哥布林赌徒",
+        "level": 5
       }
     ]
   },
   {
     "no": "20",
     "spell": "破防",
-    "aspect": "None",
-    "rank": "★★",
-    "description": "Increases damage you deal target by 50%. Recast timer is reset if target is KO'd in battle before the effect expires. This action does not share a recast timer with any other actions.",
-    "notes": "A primitive type of curse cast by giants in the New World, this spell sunders opponents' defenses by breaking their spirits. Pairing it with strong offensive magic allows the blue mage to weaken and strike down foe after foe without cease.",
     "location": "Learn 5 spells and obtain a Whalaqee Totem from Wayward Gaheel Ja, in Ul'dah — Steps of Thal  (x12.5,y12.9).",
-    "level": "1",
+    "level": 1,
     "icon": "Off-guard.png",
     "method": [
       {
         "type": "special",
-        "text": "学习 5 个技能后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]"
+        "text": "学习 5 个技能后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]",
+        "level": 1
       }
     ]
   },
   {
     "no": "21",
     "spell": "自爆",
-    "aspect": "Piercing",
-    "rank": "★",
-    "description": "Deals fire damage with a potency of 900 to all nearby enemies while incapacitating self.",
-    "notes": "Credited as the source of the “bomb” voidsent family's name, Self-destruct, when used by blue mages, converts the entirety of its caster's energy into fire-aspected aether to cause an explosion. The application of oil has been observed to make it more effective─though likely also more painful.",
     "location": "Western Thanalan (x27,y16) — Glide Bomb",
-    "level": "12",
+    "level": 12,
     "icon": "Self-destruct.png",
     "method": [
       {
@@ -463,36 +405,30 @@
           16,
           0
         ],
-        "mob": "滑行爆弹怪"
+        "mob": "滑行爆弹怪",
+        "level": 12
       }
     ]
   },
   {
     "no": "22",
     "spell": "融合",
-    "aspect": "None",
-    "rank": "★★",
-    "description": "Restores all HP and MP of a single party member while incapacitating self.",
-    "notes": "At times used by self-sacrificing spirits of the dead roaming the New World, this technique consumes the entirety of the one's being to fully restore both the body and mind of another. Though the sacrifice required is great, the use of this spell is a deed not soon forgotten.",
     "location": "Learn 20 spells and obtain a Whalaqee Totem from Wayward Gaheel Ja, in Ul'dah — Steps of Thal  (x12.5,y12.9).",
-    "level": "1",
+    "level": 1,
     "icon": "Transfusion.png",
     "method": [
       {
         "type": "special",
-        "text": "学习 20 个技能后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]"
+        "text": "学习 20 个技能后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]",
+        "level": 1
       }
     ]
   },
   {
     "no": "23",
     "spell": "拍掌",
-    "aspect": "None",
-    "rank": "★★★",
-    "description": "Stuns all enemies in a cone before you.",
-    "notes": "Originally developed as a means of defense from flesh-eating beasts, this favorite of the Qiqirn tribes produces a shockwave as its user strikes together palms filled with concentrated aether, leaving foes witless.",
     "location": "Central Thanalan (x16,y19) — Qiqirn Shellsweeper\nEastern La Noscea (x26,y32) — Qiqirn Gullroaster",
-    "level": "6",
+    "level": 6,
     "icon": "Faze.png",
     "method": [
       {
@@ -504,7 +440,8 @@
           19,
           0
         ],
-        "mob": "卢恩人护甲手"
+        "mob": "卢恩人护甲手",
+        "level": 6
       },
       {
         "type": "map",
@@ -515,19 +452,16 @@
           32,
           0
         ],
-        "mob": "卢恩人烘鸥手"
+        "mob": "卢恩人烘鸥手",
+        "level": 6
       }
     ]
   },
   {
     "no": "24",
     "spell": "投掷沙丁鱼",
-    "aspect": "Piercing",
-    "rank": "★",
-    "description": "Deals unaspected damage with a potency of 10.",
-    "notes": "The apkallu, in the wild, violently regurgitates its latest pescatarian meal at predators as a defense mechanism. In blue magic trials, Flying Sardine has proven to be an equally effective deterrent even when the sardine in question is not entirely physical, reliably shocking adversaries into silence.",
     "location": "Eastern La Noscea (x27,y35) — Apkallu",
-    "level": "30",
+    "level": 30,
     "icon": "Flying_Sardine.png",
     "method": [
       {
@@ -539,73 +473,61 @@
           35,
           0
         ],
-        "mob": "碧企鹅"
+        "mob": "碧企鹅",
+        "level": 30
       }
     ]
   },
   {
     "no": "25",
     "spell": "鼻息",
-    "aspect": "Wind",
-    "rank": "★★★★",
-    "description": "Deals a 20-yalm knockback to all enemies in a cone before you.",
-    "notes": "Typhon's signature technique produces gale-force winds by propelling concentrated air through the nostrils─though mages recreate the gust externally, for the sake of nasal integrity. In addition to buffeting foes backward, it appears to have a detrimental effect on its target's mental state.",
     "location": "The Dragon's Neck — Typhon",
-    "level": "50",
+    "level": 50,
     "icon": "Snort.png",
     "method": [
       {
         "type": "trail",
         "name": "艾玛吉娜杯斗技大会决赛",
-        "mob": "提丰"
+        "mob": "提丰",
+        "level": 50
       }
     ]
   },
   {
     "no": "26",
     "spell": "4星吨",
-    "aspect": "Blunt",
-    "rank": "★★★★",
-    "description": "Drops a 4-tonze weight dealing unaspected damage with a potency of 110 to all enemies at a designated location.\nEnemies within an 8-yalm radius will be unaffected.",
-    "notes": "Employed to great effect by Ultros, this technique crushes adversaries beneath a phantom weight. Due to reticence in the scholastic community regarding certain forms of testing, whether the weight applied feels like that of four full tonzes is a question that remains unanswered.",
     "location": "The Dragon's Neck — Ultros",
-    "level": "50",
+    "level": 50,
     "icon": "4-tonze_Weight.png",
     "method": [
       {
         "type": "trail",
         "name": "艾玛吉娜杯斗技大会决赛",
-        "mob": "奥尔特罗斯"
+        "mob": "奥尔特罗斯",
+        "level": 50
       }
     ]
   },
   {
     "no": "27",
     "spell": "诡异视线",
-    "aspect": "None",
-    "rank": "★★",
-    "description": "Deals unaspected damage with a potency of 130 to all enemies in a cone before you.",
-    "notes": "Common amongst dahaks, this technique requires using the position of one's own eyes to anchor arcane geometries in which to concentrate aether. The user then expels the aether, propelled by ill will, in the direction of his gaze─though this tends to earn him a fair bit of ire in return.",
     "location": "Amdapor Keep — Anantaboga ",
-    "level": "50",
+    "level": 50,
     "icon": "The_Look.png",
     "method": [
       {
         "type": "dungeon",
         "name": "邪教驻地无限城古堡",
-        "mob": "阿难塔波嘉"
+        "mob": "阿难塔波嘉",
+        "level": 50
       }
     ]
   },
   {
     "no": "28",
     "spell": "臭气",
-    "aspect": "None",
-    "rank": "★★★",
-    "description": "Blow noxious breath on all enemies in a cone before you, inflicting Slow +20%, Heavy +40%, Blind, and Paralysis.",
-    "notes": "This spell manipulates wind- and earth-aspected aether to call forth the umbral, imbuing exhaled air with miasma. Attempts to replicate the morbol's Bad Breath sans its inherent horrific stench have been unsuccessful, thus it retains its title as the foulest of blue magicks.",
     "location": "Central Shroud (x18,y21) — Stroper\nCentral Shroud (x15,y21) — Halitostroper",
-    "level": "31",
+    "level": 31,
     "icon": "Bad_Breath.png",
     "method": [
       {
@@ -617,7 +539,8 @@
           21,
           0
         ],
-        "mob": "套索花"
+        "mob": "套索花",
+        "level": 31
       },
       {
         "type": "map",
@@ -628,54 +551,45 @@
           21,
           0
         ],
-        "mob": "臭套索花"
+        "mob": "臭套索花",
+        "level": 31
       }
     ]
   },
   {
     "no": "29",
     "spell": "超硬化",
-    "aspect": "None",
-    "rank": "★★★★",
-    "description": "Reduces damage taken by 90% and nullifies most knockback and draw-in effects. Unable to move or take action for the duration of this effect. If used when Waxing Nocturne is active, its effect will transition immediately to Waning Nocturne. The effect of this action cannot be ended manually.",
-    "notes": "Diamondback weaves earth-aspected aether into a hard mineral shield, mimicking what many describe as the “maddening” effect of shelled dragons' carapaces. Alas, though its defensive properties are superlative, its weight makes it impossible for the caster to move while under its aegis.",
     "location": "The Stone Vigil (Hard) — Cuca Fera",
-    "level": "50",
+    "level": 50,
     "icon": "Diamondback.png",
     "method": [
       {
         "type": "dungeon",
         "name": "激战城塞石卫塔",
-        "mob": "库卡龙龟"
+        "mob": "库卡龙龟",
+        "level": 50
       }
     ]
   },
   {
     "no": "30",
     "spell": "强力守护",
-    "aspect": "None",
-    "rank": "★★★★",
-    "description": "Reduces damage taken by 40% while reducing damage dealt by 70% and increasing enmity generation. Effect ends upon reuse.",
-    "notes": "Protected by only a dainty layer of scales, some Indigo Deep-dwellers' survival has come to depend on aetherial manipulation─this technique included. By reducing the amount of aether used for offense, more becomes available for the creation of a strong─if flashy─barrier.",
     "location": "Learn 10 spells and obtain a Whalaqee Totem from Wayward Gaheel Ja, in Ul'dah — Steps of Thal  (x12.5,y12.9).",
-    "level": "1",
+    "level": 1,
     "icon": "Mighty_Guard.png",
     "method": [
       {
         "type": "special",
-        "text": "学习 10 个技能后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]"
+        "text": "学习 10 个技能后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]",
+        "level": 1
       }
     ]
   },
   {
     "no": "31",
     "spell": "滑舌",
-    "aspect": "Blunt",
-    "rank": "★★★★",
-    "description": "Draws target towards caster.",
-    "notes": "In nature, Sticky Tongue is employed by gigantoads, who extend said lengthy and unusually adhesive appendages to capture distant prey. The blue magic rendition utilizes a far more sanitary aetherial “tongue,” but the principle is the same.",
     "location": "Central Thanalan (x27,y19) — Toxic Toad\nWestern Thanalan (x15,y7) — Giggling Gigantoad",
-    "level": "14",
+    "level": 14,
     "icon": "Sticky_Tongue.png",
     "method": [
       {
@@ -687,7 +601,8 @@
           19,
           0
         ],
-        "mob": "毒蟾蜍"
+        "mob": "毒蟾蜍",
+        "level": 14
       },
       {
         "type": "map",
@@ -698,19 +613,16 @@
           7,
           0
         ],
-        "mob": "痴笑巨蟾蜍"
+        "mob": "痴笑巨蟾蜍",
+        "level": 14
       }
     ]
   },
   {
     "no": "32",
     "spell": "油性分泌物",
-    "aspect": "None",
-    "rank": "★★★",
-    "description": "Increases evasion by 20%.",
-    "notes": "This technique covers the blue mage's body in oil, much like a gigantoad's slime would its own, allowing the caster to slip and slide away from foes' attacks. Though most consider it uncouth at best, make no mistake─its devotees are few, but ardent.",
     "location": "Western Thanalan (x15,y7) — Giggling Gigantoad",
-    "level": "24",
+    "level": 24,
     "icon": "Toad_Oil.png",
     "method": [
       {
@@ -722,73 +634,61 @@
           7,
           0
         ],
-        "mob": "痴笑巨蟾蜍"
+        "mob": "痴笑巨蟾蜍",
+        "level": 24
       }
     ]
   },
   {
     "no": "33",
     "spell": "寒冰咆哮",
-    "aspect": "Ice",
-    "rank": "★★",
-    "description": "Deals ice damage with a potency of 130 to all nearby enemies.",
-    "notes": "Scholars theorize that this particular spell was born of the variety of aetherial manipulation often performed by northern rams to survive the harsh climes of high elevations─but when ram became chimerical head, it began to favor offense over defense.",
     "location": "Cutter's Cry — Chimera",
-    "level": "38",
+    "level": 38,
     "icon": "The_Ram's_Voice.png",
     "method": [
       {
         "type": "dungeon",
         "name": "流沙迷宫樵鸣洞",
-        "mob": "奇美拉"
+        "mob": "奇美拉",
+        "level": 38
       }
     ]
   },
   {
     "no": "34",
     "spell": "雷电咆哮",
-    "aspect": "Lightning",
-    "rank": "★★",
-    "description": "Deals lightning damage with a potency of 110 to nearby enemies.\nEnemies within an 8-yalm radius will be unaffected.",
-    "notes": "The blue mage's ability to precisely direct volatile levin to form the smooth ring produced by this spell is owed to the chimera from which the technique was learned─and whose control of lightning aether was, in turn, owed to its draconic head.",
     "location": "Cutter's Cry — Chimera",
-    "level": "38",
+    "level": 38,
     "icon": "The_Dragon's_Voice.png",
     "method": [
       {
         "type": "dungeon",
         "name": "流沙迷宫樵鸣洞",
-        "mob": "奇美拉"
+        "mob": "奇美拉",
+        "level": 38
       }
     ]
   },
   {
     "no": "35",
     "spell": "导弹",
-    "aspect": "None",
-    "rank": "★★★★",
-    "description": "Deals damage equal to half target's current HP. Chance of successful attack is low. Has no effect on enemies whose level is higher than your own.",
-    "notes": "A magical imitation of warmachina technology, this technique allows the user to fire a barrage of aetherial missiles. When efficacious─which, bear in mind, is not guaranteed─it sends a shock through the foe that appears to resonate more the greater their vitality.",
     "location": "Battle in the Big Keep — Enkidu",
-    "level": "50",
+    "level": 50,
     "icon": "Missile.png",
     "method": [
       {
         "type": "trail",
         "name": "无限城的死斗",
-        "mob": "恩奇都"
+        "mob": "恩奇都",
+        "level": 50
       }
     ]
   },
   {
     "no": "36",
     "spell": "千针刺",
-    "aspect": "Piercing",
-    "rank": "★★★★",
-    "description": "Deals a fixed 1,000 damage which is shared by all enemies around you.",
-    "notes": "Highly famed ─and feared─ due to its frequent use by cactuars, 1000 Needles showers one's surroundings with a hail of slim projectiles. Despite their magical nature, the velocity at which the blue mage's pseudo-spines are propelled ensures that they are quite as painful as the real thing.",
     "location": "Southern Thanalan (x16,y15) — Sabotender Bailaor\nCutter's Cry — Sabotender Desertor",
-    "level": "24",
+    "level": 24,
     "icon": "1000_Needles.png",
     "method": [
       {
@@ -800,130 +700,110 @@
           15,
           0
         ],
-        "mob": "仙人刺舞蹈家"
+        "mob": "仙人刺舞蹈家",
+        "level": 24
       },
       {
         "type": "dungeon",
         "name": "流沙迷宫樵鸣洞",
-        "mob": "仙人刺逃兵"
+        "mob": "仙人刺逃兵",
+        "level": 24
       }
     ]
   },
   {
     "no": "37",
     "spell": "喷墨",
-    "aspect": "None",
-    "rank": "★★★",
-    "description": "Deals unaspected damage with a potency of 120 to all enemies in a cone before you.",
-    "notes": "Ink Jet can be considered a more advanced form of Water Cannon─fitting, as both come courtesy of the kraken. The spell infuses aetherially concentrated water with whatever impure substances are most readily available to create and expel a synthetic “ink,” blinding opponents.",
     "location": "Sastasha (Hard) — Kraken",
-    "level": "50",
+    "level": 50,
     "icon": "Ink_Jet.png",
     "method": [
       {
         "type": "dungeon",
         "name": "逆转要害沙斯塔夏溶洞",
-        "mob": "克拉肯"
+        "mob": "克拉肯",
+        "level": 50
       }
     ]
   },
   {
     "no": "38",
     "spell": "火投枪",
-    "aspect": "Fire",
-    "rank": "★★★",
-    "description": "Deals fire damage with a potency of 100 to target and all enemies nearby it.",
-    "notes": "In imitation of a martial technique passed down for generations by Mamool Ja tribes in the New World, this spell imbues a long-headed spear called an “angon”─or rather, an aetherial replica of the same─with fire-aspected aether and propels it across the field at enemy combatants.",
     "location": "The Wanderer's Palace (Hard) — Frumious Koheel Ja",
-    "level": "50",
+    "level": 50,
     "icon": "Fire_Angon.png",
     "method": [
       {
         "type": "dungeon",
         "name": "武装圣域放浪神古神殿",
-        "mob": "折角骑士 寇黑加"
+        "mob": "折角骑士 寇黑加",
+        "level": 50
       }
     ]
   },
   {
     "no": "39",
     "spell": "月之笛",
-    "aspect": "None",
-    "rank": "★",
-    "description": "Grants the effect of Waxing Nocturne, increasing damage dealt by 50% and movement speed by 30%.",
-    "notes": "This technique imitates a peculiar flute wrested from the grasp of a vanquished voidsent. Said creature was initially welcomed as a god by those New World peoples who worship the moon, but it soon became clear to them that the flute was the true source of its power and cruel authority.",
     "location": "Clear 10 Stages in The Masked Carnivale and obtain a Whalaqee Totem from Wayward Gaheel Ja, in Ul'dah — Steps of Thal  (x12.5,y12.9).",
-    "level": "1",
+    "level": 1,
     "icon": "Moon_Flute.png",
     "method": [
       {
         "type": "special",
-        "text": "完成 10 种假面狂欢关卡后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]"
+        "text": "完成 10 种假面狂欢关卡后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]",
+        "level": 1
       }
     ]
   },
   {
     "no": "40",
     "spell": "螺旋尾",
-    "aspect": "None",
-    "rank": "★★★★",
-    "description": "Reduces target's HP to 1. Chance of successful attack is low. Has no effect on enemies whose level is higher than your own.",
-    "notes": "Karlabos performs Tail Screw by collecting turbulent aether in the tip of its tail, then unleashing it at once as a violent whorl that rips foes' lives from their bodies. This is notoriously difficult to imitate, due to the challenges inherent in attempting to control such a volatile aetherial vortex.",
     "location": "Sastasha (Hard) — Karlabos",
-    "level": "50",
+    "level": 50,
     "icon": "Tail_Screw.png",
     "method": [
       {
         "type": "dungeon",
         "name": "逆转要害沙斯塔夏溶洞",
-        "mob": "真红龙虾"
+        "mob": "真红龙虾",
+        "level": 50
       }
     ]
   },
   {
     "no": "41",
     "spell": "精神冲击",
-    "aspect": "None",
-    "rank": "★",
-    "description": "Deals unaspected damage with a potency of 100 to all nearby enemies.",
-    "notes": "Primarily used by soulflayers, though reportedly also found in Blaster's arsenal, Mind Blast assaults nearby foes' perceptions, tormenting them with the sensation of manifold cuts. Senses overwhelmed, victims' bodies react as if perception were reality, leaving them wounded and paralyzed.",
     "location": "The Tam-Tara Deepcroft — Galvanth the Dominator",
-    "level": "16",
+    "level": 16,
     "icon": "Mind_Blast.png",
     "method": [
       {
         "type": "dungeon",
         "name": "地下灵殿塔姆·塔拉墓园",
-        "mob": "主宰者 加尔梵斯"
+        "mob": "主宰者 加尔梵斯",
+        "level": 16
       }
     ]
   },
   {
     "no": "42",
     "spell": "死亡宣告",
-    "aspect": "None",
-    "rank": "★★★★",
-    "description": "Inflicts Doom on target. When effect expires, the target will be KO'd. Chance of successful attack is low. Has no effect on enemies whose level is higher than your own.",
-    "notes": "Oft cast by voidsent in the New World, this mortal curse merely hints that one's time may be nigh. For particularly suggestible opponents, however, this is enough─the looming spectre of death will send them leaping to their graves.",
     "location": "Clear 20 Stages in The Masked Carnivale and obtain a Whalaqee Totem from Wayward Gaheel Ja, in Ul'dah — Steps of Thal  (x12.5,y12.9).",
-    "level": "1",
+    "level": 1,
     "icon": "Doom.png",
     "method": [
       {
         "type": "special",
-        "text": "完成 20 种假面狂欢关卡后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]"
+        "text": "完成 20 种假面狂欢关卡后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]",
+        "level": 1
       }
     ]
   },
   {
     "no": "43",
     "spell": "惊奇光",
-    "aspect": "None",
-    "rank": "★★",
-    "description": "Deals earth damage with a potency of 130 to all nearby enemies.",
-    "notes": "Just like that all-too-well-known fixture in the arsenals of many earthy soulkin, this technique creates a localized quake around the caster. According to legend, the earth itself will appear to shatter under a true master of the spell.",
     "location": "Mor Dhona (x13,y10) — Lentic Mudpuppy",
-    "level": "45",
+    "level": 45,
     "icon": "Peculiar_Light.png",
     "method": [
       {
@@ -935,145 +815,134 @@
           10,
           0
         ],
-        "mob": "静水泥沼蝾螈"
+        "mob": "静水泥沼蝾螈",
+        "level": 45
       }
     ]
   },
   {
     "no": "44",
     "spell": "飞翎雨",
-    "aspect": "Wind",
-    "rank": "★★★★★",
-    "description": "Deals wind damage with a potency of 180 to all enemies at a designated location. Shares a recast timer with Eruption.",
-    "notes": "Feather Rain, as swift and brutal as most of Garuda's skills, puts the force of a gale behind a storm of sharp plumes, afflicting foes with innumerable cuts and lashes that cause lingering agony.",
     "location": "The Howling Eye (Hard) — Garuda\nThe Howling Eye (Extreme) — Garuda",
-    "level": "50",
+    "level": 50,
     "icon": "Feather_Rain.png",
     "method": [
       {
         "type": "trail",
         "name": "迦楼罗歼灭战",
-        "mob": "迦楼罗"
+        "mob": "迦楼罗",
+        "level": 50
       },
       {
         "type": "trail",
         "name": "迦楼罗歼殛战",
-        "mob": "迦楼罗"
+        "mob": "迦楼罗",
+        "level": 50
       }
     ]
   },
   {
     "no": "45",
     "spell": "地火喷发",
-    "aspect": "Fire",
-    "rank": "★★★★★",
-    "description": "Deals fire damage with a potency of 220 to all enemies at a designated location. Shares a recast timer with Feather Rain.",
-    "notes": "Necessitating the skill to manipulate currents beneath the earth as Ifrit does, Eruption drives the fire within the land above ground in a burst of explosive flame, creating an effect similar to that of a volcano.",
     "location": "The Bowl of Embers (Hard) — Ifrit\nThe Bowl of Embers (Extreme) — Ifrit",
-    "level": "50",
+    "level": 50,
     "icon": "Eruption.png",
     "method": [
       {
         "type": "trail",
         "name": "伊弗利特歼灭战",
-        "mob": "伊弗利特"
+        "mob": "伊弗利特",
+        "level": 50
       },
       {
         "type": "trail",
         "name": "伊弗利特歼殛战",
-        "mob": "伊弗利特"
+        "mob": "伊弗利特",
+        "level": 50
       }
     ]
   },
   {
     "no": "46",
     "spell": "山崩",
-    "aspect": "Blunt/Earth",
-    "rank": "★★★★★",
-    "description": "Deals earth damage to all enemies in a cone before you with a potency of 310 for the first enemy, 30% less for the second, 60% less for the third, and 70% less for all remaining enemies. Shares a recast timer with Shock Strike.",
-    "notes": "In a devastating recreation of one of Titan's most fearsome techniques, Mountain Buster strikes opponents with an upheaval of earth-aspected aether, as if the land itself were ripping free of its confines to pulverize its defilers─or any unfortunate bystanders, as it were.",
     "location": "The Navel (Hard) — Titan\nThe Navel (Extreme) — Titan",
-    "level": "50",
+    "level": 50,
     "icon": "Mountain_Buster.png",
     "method": [
       {
         "type": "trail",
         "name": "泰坦歼灭战",
-        "mob": "泰坦"
+        "mob": "泰坦",
+        "level": 50
       },
       {
         "type": "trail",
         "name": "泰坦歼殛战",
-        "mob": "泰坦"
+        "mob": "泰坦",
+        "level": 50
       }
     ]
   },
   {
     "no": "47",
     "spell": "轰雷",
-    "aspect": "Lightning",
-    "rank": "★★★★★",
-    "description": "Deals lightning damage to target and all enemies nearby it with a potency of 310 for the first enemy, 30% less for the second, 60% less for the third, and 70% less for all remaining enemies. Shares a recast timer with Mountain Buster.",
-    "notes": "Shock Strike, never so imposing as when cast by Ramuh, calls down a bolt from the heavens. Though measurements are difficult to come by, its power is thought to far exceed that of levinbolts found in nature─indeed, it more closely resembles a warhammer crashing to the earth.",
     "location": "The Striking Tree (Hard) — Ramuh\nThe Striking Tree (Extreme) — Ramuh",
-    "level": "50",
+    "level": 50,
     "icon": "Shock_Strike.png",
     "method": [
       {
         "type": "trail",
         "name": "拉姆歼灭战",
-        "mob": "拉姆"
+        "mob": "拉姆",
+        "level": 50
       },
       {
         "type": "trail",
         "name": "拉姆歼殛战",
-        "mob": "拉姆"
+        "mob": "拉姆",
+        "level": 50
       }
     ]
   },
   {
     "no": "48",
     "spell": "冰雪乱舞",
-    "aspect": "Ice",
-    "rank": "★★★★★",
-    "description": "Deals ice damage to all enemies in a wide arc to your fore and flanks with a potency of 290 for the first enemy, 15% less for the second, and 30% less for all remaining enemies. Shares a recast timer with Veil of the Whorl.",
-    "notes": "To fully replicate this technique, beloved of Shiva, the blue mage calls forth a bow of aether from which she fires a hail of razor-sharp icicles. Those who knew the lady Ysayle believe that Glass Dance may have taken form from her memories of observing hunters in Tailfeather.",
     "location": "Akh Afah Amphitheatre (Hard) — Shiva\nAkh Afah Amphitheatre (Extreme) — Shiva",
-    "level": "50",
+    "level": 50,
     "icon": "Glass_Dance.png",
     "method": [
       {
         "type": "trail",
         "name": "希瓦歼灭战",
-        "mob": "希瓦"
+        "mob": "希瓦",
+        "level": 50
       },
       {
         "type": "trail",
         "name": "希瓦歼殛战",
-        "mob": "希瓦"
+        "mob": "希瓦",
+        "level": 50
       }
     ]
   },
   {
     "no": "49",
     "spell": "水神的面纱",
-    "aspect": "Water",
-    "rank": "★★★★★",
-    "description": "Counters enemies with water damage every time you suffer damage.\nShares a recast timer with Glass Dance.",
-    "notes": "This fearsome magic, inspired by Leviathan, creates an aqueous film of water collected from the atmosphere. Though a veil in the sense of offering protection from outside forces, it also functions as a mirror, reflecting foes' aether back upon them.",
     "location": "The Whorleater (Hard) — Leviathan\nThe Whorleater (Extreme) — Leviathan",
-    "level": "50",
+    "level": 50,
     "icon": "Veil_of_the_Whorl.png",
     "method": [
       {
         "type": "trail",
         "name": "利维亚桑歼灭战",
-        "mob": "利维亚桑"
+        "mob": "利维亚桑",
+        "level": 50
       },
       {
         "type": "trail",
         "name": "利维亚桑歼殛战",
-        "mob": "利维亚桑"
+        "mob": "利维亚桑",
+        "level": 50
       }
     ]
   }

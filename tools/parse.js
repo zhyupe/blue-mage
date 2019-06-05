@@ -137,7 +137,18 @@ const content = fs.readFileSync('./spells.csv', 'utf-8')
 //   "Level",
 //   "Instance\r"
 // ],
-let spells = readCsv(content, ['no', , , 'spell', 'aspect', 'rank', 'description', 'notes', 'location', 'level',])
+let spells = readCsv(content, [
+  'no',
+  ,
+  ,
+  'spell',
+  /*'aspect'*/,
+  /*'rank'*/,
+  /*'description'*/,
+  /*'notes'*/,
+  'location',
+  'level',
+])
 
 // remove table header
 spells.shift()
@@ -153,7 +164,13 @@ spells = spells.map((row, i) => {
   // row.notes = tryTranslate('AozActionTransient', row.notes)
 
   row.method = parseLocation(row.location)
-  // Object.assign(row, map[i])
+
+  let levels = row.level.split('\n').map(a => +a)
+  row.level = Math.min(...levels)
+
+  row.method.forEach((method, i) => {
+    method.level = levels[i] || levels[levels.length - 1]
+  })
   return row
 })
 
