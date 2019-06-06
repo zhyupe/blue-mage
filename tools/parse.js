@@ -78,7 +78,7 @@ const parseLocation = function (location) {
       if (match) {
         return {
           type: 'special',
-          text: `学习 ${match[1]} 个技能后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]`
+          text: `学习 ${match[1]} 个技能后可从异男子嘎希迦(乌尔达哈来生回廊)处获得天青图腾`
         }
       }
       
@@ -86,7 +86,7 @@ const parseLocation = function (location) {
       if (match) {
         return {
           type: 'special',
-          text: `完成 ${match[1]} 种假面狂欢关卡后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]`
+          text: `完成 ${match[1]} 种假面狂欢关卡后可从异男子嘎希迦(乌尔达哈来生回廊)处获得天青图腾`
         }
       }
       // console.log(place, mob)
