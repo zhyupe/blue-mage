@@ -163,6 +163,7 @@ spells = spells.map((row) => {
   // row.notes = tryTranslate('AozActionTransient', row.notes)
 
   row.method = parseLocation(row.location)
+  delete row.location
 
   let levels = row.level.split('\n').map(a => +a)
   row.level = Math.min(...levels)

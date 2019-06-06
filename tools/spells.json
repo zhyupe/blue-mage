@@ -2,7 +2,6 @@
   {
     "no": "1",
     "spell": "水炮",
-    "location": "Default",
     "level": 1,
     "icon": "Water_Cannon.png",
     "method": [
@@ -16,7 +15,6 @@
   {
     "no": "2",
     "spell": "火炎放射",
-    "location": "Brayflox's Longstop (Hard) — Gobmachine G-VI",
     "level": 50,
     "icon": "Flame_Thrower.png",
     "method": [
@@ -31,7 +29,6 @@
   {
     "no": "3",
     "spell": "水流吐息",
-    "location": "The Dragon's Neck — Ultros\nThe Whorleater (Hard) — Leviathan",
     "level": 50,
     "icon": "Aqua_Breath.png",
     "method": [
@@ -52,7 +49,6 @@
   {
     "no": "4",
     "spell": "狂乱",
-    "location": "Pharos Sirius — Zu",
     "level": 50,
     "icon": "Flying_Frenzy.png",
     "method": [
@@ -67,7 +63,6 @@
   {
     "no": "5",
     "spell": "钻头炮",
-    "location": "Northern Thanalan (Reverse Engineering FATE) — Abandoned Vanguard\nNorthern Thanalan (x16,y15) — Magitek Vanguard H-2",
     "level": 46,
     "icon": "Drill_Cannons.png",
     "method": [
@@ -95,7 +90,6 @@
   {
     "no": "6",
     "spell": "高压电流",
-    "location": "The Binding Coil of Bahamut - Turn 1 — ADS\nThe Binding Coil of Bahamut - Turn 2 — ADS",
     "level": 50,
     "icon": "High_Voltage.png",
     "method": [
@@ -116,7 +110,6 @@
   {
     "no": "7",
     "spell": "若隐若现",
-    "location": "Northern Thanalan (Rank B Elite Mark) — Flame Sergeant Dalvag",
     "level": 50,
     "icon": "Loom.png",
     "method": [
@@ -133,7 +126,6 @@
   {
     "no": "8",
     "spell": "终极针",
-    "location": "Middle La Noscea (x15,y15) — Killer Wespe",
     "level": 13,
     "icon": "Final_Sting.png",
     "method": [
@@ -154,7 +146,6 @@
   {
     "no": "9",
     "spell": "苦闷之歌",
-    "location": "Pharos Sirius — Siren",
     "level": 50,
     "icon": "Song_of_Torment.png",
     "method": [
@@ -169,7 +160,6 @@
   {
     "no": "10",
     "spell": "怒视",
-    "location": "The Aurum Vale — Coincounter",
     "level": 47,
     "icon": "Glower.png",
     "method": [
@@ -184,7 +174,6 @@
   {
     "no": "11",
     "spell": "平原震裂",
-    "location": "North Shroud (19x,28y) — Clay Golem\nCopperbell Mines (Hard) — Gogmagolem",
     "level": 28,
     "icon": "Plaincracker.png",
     "method": [
@@ -211,7 +200,6 @@
   {
     "no": "12",
     "spell": "怒发冲冠",
-    "location": "East Shroud (x18,y24) — Wild Boar",
     "level": 20,
     "icon": "Bristle.png",
     "method": [
@@ -232,7 +220,6 @@
   {
     "no": "13",
     "spell": "白风",
-    "location": "Learn 10 spells and obtain a Whalaqee Totem from Wayward Gaheel Ja, in Ul'dah — Steps of Thal  (x12.5,y12.9).",
     "level": 1,
     "icon": "White_Wind.png",
     "method": [
@@ -246,7 +233,6 @@
   {
     "no": "14",
     "spell": "5级石化",
-    "location": "Haukke Manor — Manor Sentry\nHaukke Manor (Hard) — Manor Sentry",
     "level": 28,
     "icon": "Level_5_Petrify.png",
     "method": [
@@ -267,7 +253,6 @@
   {
     "no": "15",
     "spell": "锋利菜刀",
-    "location": "The Wanderer's Palace — Tonberry King",
     "level": 50,
     "icon": "Sharpened_Knife.png",
     "method": [
@@ -282,7 +267,6 @@
   {
     "no": "16",
     "spell": "冰棘屏障",
-    "location": "Central Shroud (x27,y24) — Trickster Imp",
     "level": 9,
     "icon": "Ice_Spikes.png",
     "method": [
@@ -303,7 +287,6 @@
   {
     "no": "17",
     "spell": "吸血",
-    "location": "Lower La Noscea (x27,y16) — Cave Bat",
     "level": 7,
     "icon": "Blood_Drain.png",
     "method": [
@@ -324,7 +307,6 @@
   {
     "no": "18",
     "spell": "橡果炸弹",
-    "location": "North Shroud (x27,y28) — Treant Sapling",
     "level": 12,
     "icon": "Acorn_Bomb.png",
     "method": [
@@ -345,7 +327,6 @@
   {
     "no": "19",
     "spell": "投弹",
-    "location": "Middle La Noscea (x23,y21) — Goblin Fisher\nMiddle La Noscea (x23,y21) — Goblin Gambler",
     "level": 5,
     "icon": "Bomb_Toss.png",
     "method": [
@@ -378,7 +359,6 @@
   {
     "no": "20",
     "spell": "破防",
-    "location": "Learn 5 spells and obtain a Whalaqee Totem from Wayward Gaheel Ja, in Ul'dah — Steps of Thal  (x12.5,y12.9).",
     "level": 1,
     "icon": "Off-guard.png",
     "method": [
@@ -392,7 +372,6 @@
   {
     "no": "21",
     "spell": "自爆",
-    "location": "Western Thanalan (x27,y16) — Glide Bomb",
     "level": 12,
     "icon": "Self-destruct.png",
     "method": [
@@ -413,7 +392,6 @@
   {
     "no": "22",
     "spell": "融合",
-    "location": "Learn 20 spells and obtain a Whalaqee Totem from Wayward Gaheel Ja, in Ul'dah — Steps of Thal  (x12.5,y12.9).",
     "level": 1,
     "icon": "Transfusion.png",
     "method": [
@@ -427,7 +405,6 @@
   {
     "no": "23",
     "spell": "拍掌",
-    "location": "Central Thanalan (x16,y19) — Qiqirn Shellsweeper\nEastern La Noscea (x26,y32) — Qiqirn Gullroaster",
     "level": 6,
     "icon": "Faze.png",
     "method": [
@@ -460,7 +437,6 @@
   {
     "no": "24",
     "spell": "投掷沙丁鱼",
-    "location": "Eastern La Noscea (x27,y35) — Apkallu",
     "level": 30,
     "icon": "Flying_Sardine.png",
     "method": [
@@ -481,7 +457,6 @@
   {
     "no": "25",
     "spell": "鼻息",
-    "location": "The Dragon's Neck — Typhon",
     "level": 50,
     "icon": "Snort.png",
     "method": [
@@ -496,7 +471,6 @@
   {
     "no": "26",
     "spell": "4星吨",
-    "location": "The Dragon's Neck — Ultros",
     "level": 50,
     "icon": "4-tonze_Weight.png",
     "method": [
@@ -511,7 +485,6 @@
   {
     "no": "27",
     "spell": "诡异视线",
-    "location": "Amdapor Keep — Anantaboga ",
     "level": 50,
     "icon": "The_Look.png",
     "method": [
@@ -526,7 +499,6 @@
   {
     "no": "28",
     "spell": "臭气",
-    "location": "Central Shroud (x18,y21) — Stroper\nCentral Shroud (x15,y21) — Halitostroper",
     "level": 31,
     "icon": "Bad_Breath.png",
     "method": [
@@ -559,7 +531,6 @@
   {
     "no": "29",
     "spell": "超硬化",
-    "location": "The Stone Vigil (Hard) — Cuca Fera",
     "level": 50,
     "icon": "Diamondback.png",
     "method": [
@@ -574,7 +545,6 @@
   {
     "no": "30",
     "spell": "强力守护",
-    "location": "Learn 10 spells and obtain a Whalaqee Totem from Wayward Gaheel Ja, in Ul'dah — Steps of Thal  (x12.5,y12.9).",
     "level": 1,
     "icon": "Mighty_Guard.png",
     "method": [
@@ -588,7 +558,6 @@
   {
     "no": "31",
     "spell": "滑舌",
-    "location": "Central Thanalan (x27,y19) — Toxic Toad\nWestern Thanalan (x15,y7) — Giggling Gigantoad",
     "level": 14,
     "icon": "Sticky_Tongue.png",
     "method": [
@@ -621,7 +590,6 @@
   {
     "no": "32",
     "spell": "油性分泌物",
-    "location": "Western Thanalan (x15,y7) — Giggling Gigantoad",
     "level": 24,
     "icon": "Toad_Oil.png",
     "method": [
@@ -642,7 +610,6 @@
   {
     "no": "33",
     "spell": "寒冰咆哮",
-    "location": "Cutter's Cry — Chimera",
     "level": 38,
     "icon": "The_Ram's_Voice.png",
     "method": [
@@ -657,7 +624,6 @@
   {
     "no": "34",
     "spell": "雷电咆哮",
-    "location": "Cutter's Cry — Chimera",
     "level": 38,
     "icon": "The_Dragon's_Voice.png",
     "method": [
@@ -672,7 +638,6 @@
   {
     "no": "35",
     "spell": "导弹",
-    "location": "Battle in the Big Keep — Enkidu",
     "level": 50,
     "icon": "Missile.png",
     "method": [
@@ -687,7 +652,6 @@
   {
     "no": "36",
     "spell": "千针刺",
-    "location": "Southern Thanalan (x16,y15) — Sabotender Bailaor\nCutter's Cry — Sabotender Desertor",
     "level": 24,
     "icon": "1000_Needles.png",
     "method": [
@@ -714,7 +678,6 @@
   {
     "no": "37",
     "spell": "喷墨",
-    "location": "Sastasha (Hard) — Kraken",
     "level": 50,
     "icon": "Ink_Jet.png",
     "method": [
@@ -729,7 +692,6 @@
   {
     "no": "38",
     "spell": "火投枪",
-    "location": "The Wanderer's Palace (Hard) — Frumious Koheel Ja",
     "level": 50,
     "icon": "Fire_Angon.png",
     "method": [
@@ -744,7 +706,6 @@
   {
     "no": "39",
     "spell": "月之笛",
-    "location": "Clear 10 Stages in The Masked Carnivale and obtain a Whalaqee Totem from Wayward Gaheel Ja, in Ul'dah — Steps of Thal  (x12.5,y12.9).",
     "level": 1,
     "icon": "Moon_Flute.png",
     "method": [
@@ -758,7 +719,6 @@
   {
     "no": "40",
     "spell": "螺旋尾",
-    "location": "Sastasha (Hard) — Karlabos",
     "level": 50,
     "icon": "Tail_Screw.png",
     "method": [
@@ -773,7 +733,6 @@
   {
     "no": "41",
     "spell": "精神冲击",
-    "location": "The Tam-Tara Deepcroft — Galvanth the Dominator",
     "level": 16,
     "icon": "Mind_Blast.png",
     "method": [
@@ -788,7 +747,6 @@
   {
     "no": "42",
     "spell": "死亡宣告",
-    "location": "Clear 20 Stages in The Masked Carnivale and obtain a Whalaqee Totem from Wayward Gaheel Ja, in Ul'dah — Steps of Thal  (x12.5,y12.9).",
     "level": 1,
     "icon": "Doom.png",
     "method": [
@@ -802,7 +760,6 @@
   {
     "no": "43",
     "spell": "惊奇光",
-    "location": "Mor Dhona (x13,y10) — Lentic Mudpuppy",
     "level": 45,
     "icon": "Peculiar_Light.png",
     "method": [
@@ -823,7 +780,6 @@
   {
     "no": "44",
     "spell": "飞翎雨",
-    "location": "The Howling Eye (Hard) — Garuda\nThe Howling Eye (Extreme) — Garuda",
     "level": 50,
     "icon": "Feather_Rain.png",
     "method": [
@@ -844,7 +800,6 @@
   {
     "no": "45",
     "spell": "地火喷发",
-    "location": "The Bowl of Embers (Hard) — Ifrit\nThe Bowl of Embers (Extreme) — Ifrit",
     "level": 50,
     "icon": "Eruption.png",
     "method": [
@@ -865,7 +820,6 @@
   {
     "no": "46",
     "spell": "山崩",
-    "location": "The Navel (Hard) — Titan\nThe Navel (Extreme) — Titan",
     "level": 50,
     "icon": "Mountain_Buster.png",
     "method": [
@@ -886,7 +840,6 @@
   {
     "no": "47",
     "spell": "轰雷",
-    "location": "The Striking Tree (Hard) — Ramuh\nThe Striking Tree (Extreme) — Ramuh",
     "level": 50,
     "icon": "Shock_Strike.png",
     "method": [
@@ -907,7 +860,6 @@
   {
     "no": "48",
     "spell": "冰雪乱舞",
-    "location": "Akh Afah Amphitheatre (Hard) — Shiva\nAkh Afah Amphitheatre (Extreme) — Shiva",
     "level": 50,
     "icon": "Glass_Dance.png",
     "method": [
@@ -928,7 +880,6 @@
   {
     "no": "49",
     "spell": "水神的面纱",
-    "location": "The Whorleater (Hard) — Leviathan\nThe Whorleater (Extreme) — Leviathan",
     "level": 50,
     "icon": "Veil_of_the_Whorl.png",
     "method": [
