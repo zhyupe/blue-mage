@@ -64,8 +64,8 @@ const saveSetting = function (key, value) {
 const loadSpellStatus = function () {
   let statusArr = loadSetting('spell-status') || []
 
-  if (!Array.isArray(statusArr) || !statusArr.length) {
-    return
+  if (!Array.isArray(statusArr)) {
+    statusArr = []
   }
 
   spells.forEach((row, index) => {
