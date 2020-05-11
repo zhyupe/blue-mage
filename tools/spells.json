@@ -908,5 +908,498 @@
         "level": 50
       }
     ]
+  },
+  {
+    "no": "50",
+    "spell": "高山气流",
+    "level": 59,
+    "icon": "003300.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "阿巴拉提亚云海",
+        "rank": null,
+        "position": [
+          35,
+          10,
+          0
+        ],
+        "mob": "狮鹫",
+        "level": 59
+      }
+    ]
+  },
+  {
+    "no": "51",
+    "spell": "万变水波",
+    "level": 60,
+    "icon": "003301.png",
+    "method": [
+      {
+        "type": "raid",
+        "name": "亚历山大机神城 启动之章3",
+        "mob": "有生命活水",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "no": "52",
+    "spell": "狂风暴雪",
+    "level": 56,
+    "icon": "003302.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "库尔扎斯西部高地",
+        "rank": null,
+        "position": [
+          25,
+          32,
+          0
+        ],
+        "mob": "狮鹫",
+        "level": 56
+      }
+    ]
+  },
+  {
+    "no": "53",
+    "spell": "生物电",
+    "level": 50,
+    "icon": "003303.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "阿巴拉提亚云海",
+        "rank": null,
+        "position": [
+          26,
+          33,
+          0
+        ],
+        "mob": "雷牙",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "no": "54",
+    "spell": "寒光",
+    "level": 60,
+    "icon": "003304.png",
+    "method": [
+      {
+        "type": "raid",
+        "name": "亚历山大机神城 启动之章1",
+        "mob": "浮士德",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "no": "55",
+    "spell": "深渊贯穿",
+    "level": 58,
+    "icon": "003305.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "龙堡内陆低地",
+        "rank": null,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "mob": "焚书任务：回收禁书《青眼怪物》 上级恶魔",
+        "level": 58
+      }
+    ]
+  },
+  {
+    "no": "56",
+    "spell": "唧唧咋咋",
+    "level": 50,
+    "icon": "003306.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "阿巴拉提亚云海",
+        "rank": null,
+        "position": [
+          21,
+          23,
+          0
+        ],
+        "mob": "猴面雀",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "no": "57",
+    "spell": "怪音波",
+    "level": 59,
+    "icon": "003307.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "魔大陆阿济兹拉",
+        "rank": null,
+        "position": [
+          30,
+          12,
+          0
+        ],
+        "mob": "疫虫",
+        "level": 59
+      }
+    ]
+  },
+  {
+    "no": "58",
+    "spell": "绒绒治疗",
+    "level": 50,
+    "icon": "003308.png",
+    "method": [
+      {
+        "type": "trail",
+        "name": "莫古力贤王歼灭战",
+        "mob": "茸茸之愈 库普洛·奇普",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "no": "59",
+    "spell": "哥布防御",
+    "level": 60,
+    "icon": "003309.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "龙堡内陆低地",
+        "rank": null,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "mob": "(A) 机工兵 斯利普金克斯",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "no": "60",
+    "spell": "魔法锤",
+    "level": 99,
+    "icon": "003310.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "秘本宝库迦巴勒幻想图书馆",
+        "mob": "阿班达",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "no": "61",
+    "spell": "防御指示",
+    "level": 99,
+    "icon": "003311.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "草木庭园圣茉夏娜植物园",
+        "mob": "鹰锋女王",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "no": "62",
+    "spell": "蛙腿",
+    "level": 59,
+    "icon": "003312.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "龙堡内陆低地",
+        "rank": null,
+        "position": [
+          12,
+          35,
+          0
+        ],
+        "mob": "智蛙",
+        "level": 59
+      }
+    ]
+  },
+  {
+    "no": "63",
+    "spell": "音爆",
+    "level": 47,
+    "icon": "003313.png",
+    "method": [
+      {
+        "type": "fate",
+        "map": "阿巴拉提亚云海",
+        "name": "黑色怪鸟",
+        "mob": "?",
+        "level": 47
+      }
+    ]
+  },
+  {
+    "no": "64",
+    "spell": "口笛",
+    "level": 56,
+    "icon": "003314.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "阿巴拉提亚云海",
+        "rank": null,
+        "position": [
+          19,
+          30,
+          0
+        ],
+        "mob": "长颈驼",
+        "level": 56
+      }
+    ]
+  },
+  {
+    "no": "65",
+    "spell": "白骑士之旅",
+    "level": 57,
+    "icon": "003315.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "圣教中枢伊修加德教皇厅",
+        "mob": "白骑士",
+        "level": 57
+      }
+    ]
+  },
+  {
+    "no": "66",
+    "spell": "黑骑士之旅",
+    "level": 57,
+    "icon": "003316.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "圣教中枢伊修加德教皇厅",
+        "mob": "黑骑士",
+        "level": 57
+      }
+    ]
+  },
+  {
+    "no": "67",
+    "spell": "5级即死",
+    "level": 59,
+    "icon": "003317.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "学识宝库加巴勒幻想图书馆",
+        "mob": "64页",
+        "level": 59
+      }
+    ]
+  },
+  {
+    "no": "68",
+    "spell": "火箭炮",
+    "level": 60,
+    "icon": "003318.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "监牢铁臂巴埃萨长城",
+        "mob": "武装重甲",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "no": "69",
+    "spell": "永恒射线",
+    "level": 99,
+    "icon": "003319.png",
+    "method": [
+      {
+        "type": "raid",
+        "name": "亚历山大机神城 启动之章4",
+        "mob": "操纵者",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "no": "70",
+    "spell": "仙人盾",
+    "level": 50,
+    "icon": "003320.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "苏醒遗迹喀恩埋没圣堂",
+        "mob": "仙人刺守卫",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "no": "71",
+    "spell": "复仇冲击",
+    "level": 99,
+    "icon": "003321.png",
+    "method": [
+      {
+        "type": "special",
+        "text": "学习 50 个技能后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "no": "72",
+    "spell": "天使低语",
+    "level": 99,
+    "icon": "003322.png",
+    "method": [
+      {
+        "type": "special",
+        "text": "完成 30 个假面狂欢关卡后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "no": "73",
+    "spell": "蜕皮",
+    "level": 50,
+    "icon": "003323.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "腐坏遗迹无限城市街古迹",
+        "mob": "瓦魔蛾",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "no": "74",
+    "spell": "逆流",
+    "level": 56,
+    "icon": "003324.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "翻云雾海",
+        "rank": null,
+        "position": [
+          25,
+          28,
+          0
+        ],
+        "mob": "白云双足飞龙",
+        "level": 56
+      }
+    ]
+  },
+  {
+    "no": "75",
+    "spell": "捕食",
+    "level": 50,
+    "icon": "003325.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "腐坏遗迹无限城市街古迹",
+        "mob": "腐坏贪吃鬼",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "no": "76",
+    "spell": "小侦测",
+    "level": 99,
+    "icon": "003326.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "假面狂欢24",
+        "mob": "斗场抄写员",
+        "level": 50
+      }
+    ]
+  },
+  {
+    "no": "77",
+    "spell": "以太复制",
+    "level": 60,
+    "icon": "003327.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "地脉灵灯天狼星灯塔",
+        "mob": "被腐化连线后产生的小怪？？？",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "no": "78",
+    "spell": "穿甲散弹",
+    "level": 53,
+    "icon": "003328.png",
+    "method": [
+      {
+        "type": "trail",
+        "name": "罗波那歼灭战",
+        "mob": "罗波那",
+        "level": 53
+      }
+    ]
+  },
+  {
+    "no": "79",
+    "spell": "类星体",
+    "level": 60,
+    "icon": "003329.png",
+    "method": [
+      {
+        "type": "trail",
+        "name": "索菲娅歼灭战",
+        "mob": "索菲娅",
+        "level": 60
+      }
+    ]
+  },
+  {
+    "no": "80",
+    "spell": "正义飞踢",
+    "level": 99,
+    "icon": "003330.png",
+    "method": [
+      {
+        "type": "raid",
+        "name": "亚历山大机神城 律动之章4",
+        "mob": "残暴正义号",
+        "level": 60
+      }
+    ]
   }
 ]
