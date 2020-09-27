@@ -39,7 +39,7 @@ export default {
         case 'map':
           {
             let pos = method.position
-            return `${method.map} ${method.rank ? `[${method.rank}]` : ''}${pos.length ? `(x:${pos[0]}, y:${pos[1]}${pos[2] ? `, z:${pos[2]}` : ''})` : ''} - ${method.mob}`
+            return `${method.map} ${method.rank ? `[${method.rank}]` : ''}${pos && pos.length ? `(x:${pos[0]}, y:${pos[1]}${pos[2] ? `, z:${pos[2]}` : ''})` : ''} - ${method.mob}${method.note ? ` (${method.note})` : ''}`
           }
         case 'raid':
         case 'dungeon':

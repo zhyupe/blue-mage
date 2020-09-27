@@ -29,7 +29,7 @@ export default {
   methods: {
     handleInput (e) {
       let val = +e.target.value
-      if (isNaN(val)) val = 50
+      if (isNaN(val)) val = 60
       this.$emit('levelChange', val)
     },
     handleClick (type, checked) {
