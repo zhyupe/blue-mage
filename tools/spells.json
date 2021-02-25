@@ -1558,7 +1558,7 @@
   {
     "no": "60",
     "spell": "魔法锤",
-    "level": 99,
+    "level": 60,
     "icon": "003310.png",
     "method": [
       {
@@ -1572,7 +1572,7 @@
   {
     "no": "61",
     "spell": "防御指示",
-    "level": 99,
+    "level": 60,
     "icon": "003311.png",
     "method": [
       {
@@ -1715,7 +1715,7 @@
   {
     "no": "69",
     "spell": "永恒射线",
-    "level": 99,
+    "level": 60,
     "icon": "003319.png",
     "method": [
       {
@@ -1749,7 +1749,7 @@
   {
     "no": "71",
     "spell": "复仇冲击",
-    "level": 99,
+    "level": 60,
     "icon": "003321.png",
     "method": [
       {
@@ -1762,7 +1762,7 @@
   {
     "no": "72",
     "spell": "天使低语",
-    "level": 99,
+    "level": 60,
     "icon": "003322.png",
     "method": [
       {
@@ -1847,7 +1847,7 @@
   {
     "no": "76",
     "spell": "小侦测",
-    "level": 99,
+    "level": 60,
     "icon": "003326.png",
     "method": [
       {
@@ -1921,7 +1921,7 @@
   {
     "no": "80",
     "spell": "正义飞踢",
-    "level": 99,
+    "level": 60,
     "icon": "003330.png",
     "method": [
       {
