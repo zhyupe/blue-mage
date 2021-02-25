@@ -1937,5 +1937,439 @@
         "level": 60
       }
     ]
+  },
+  {
+    "no": "81",
+    "spell_en": "Triple Trident",
+    "spell": "渔叉三段",
+    "level": 67,
+    "icon": "003331.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "延夏",
+        "rank": null,
+        "position": "七彩溪谷",
+        "mob": "惠比寿鲶鱼精",
+        "level": 67
+      }
+    ]
+  },
+  {
+    "no": "82",
+    "spell_en": "Tingle",
+    "spell": "哔哩哔哩",
+    "level": 67,
+    "icon": "003332.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "延夏",
+        "rank": null,
+        "position": "七彩溪谷",
+        "mob": "惠比寿鲶鱼精",
+        "level": 67
+      }
+    ]
+  },
+  {
+    "no": "83",
+    "spell_en": "Tatami-gaeshi",
+    "spell": "掀地板之术",
+    "level": 70,
+    "icon": "003333.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "恶党孤城黄金阁",
+        "mob": "?",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "84",
+    "spell_en": "Cold Fog",
+    "spell": "彻骨雾寒",
+    "level": 70,
+    "icon": "003334.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "死亡大地终末焦土",
+        "mob": "?",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "85",
+    "spell_en": "Stotram",
+    "spell": "赞歌",
+    "level": 67,
+    "icon": "003336.png",
+    "method": [
+      {
+        "type": "trail",
+        "name": "吉祥天女歼灭战",
+        "mob": "吉祥天女",
+        "level": 67
+      },
+      {
+        "type": "trail",
+        "name": "吉祥天女歼殛战",
+        "mob": "吉祥天女",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "86",
+    "spell_en": "Saintly Beam",
+    "spell": "圣光射线",
+    "level": 70,
+    "icon": "003337.png",
+    "method": [
+      {
+        "type": "raid",
+        "name": "欧米茄时空狭缝 西格玛幻境1",
+        "mob": "?",
+        "level": 70
+      },
+      {
+        "type": "raid",
+        "name": "欧米茄零式时空狭缝 西格玛幻境1",
+        "mob": "?",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "87",
+    "spell_en": "Feculent Flood",
+    "spell": "污泥破散",
+    "level": 70,
+    "icon": "003338.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "污染庭园圣茉夏娜植物园",
+        "mob": "?",
+        "level": 70
+      },
+      {
+        "type": "map",
+        "map": "伊尔美格",
+        "rank": "A",
+        "position": [],
+        "mob": "泥人",
+        "level": 80
+      }
+    ]
+  },
+  {
+    "no": "88",
+    "spell_en": "Angel's Snack",
+    "spell_ja": "天使のおやつ",
+    "spell": "Angel's Snack / 天使のおやつ",
+    "level": 70,
+    "icon": "003339.png",
+    "method": [
+      {
+        "type": "special",
+        "text": "达到 70 级后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "89",
+    "spell_en": "Chelonian Gate",
+    "spell": "玄结界",
+    "level": 70,
+    "icon": "003340.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "红玉火山狱之盖",
+        "mob": "?",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "90",
+    "spell_en": "The Rose of Destruction",
+    "spell": "斗灵弹",
+    "level": 70,
+    "icon": "003342.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "修行古刹星导寺",
+        "mob": "?",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "91",
+    "spell_en": "Basic Instinct",
+    "spell": "斗争本能",
+    "level": 24,
+    "icon": "003343.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "修行古刹星导寺",
+        "mob": "?",
+        "level": 70
+      },
+      {
+        "type": "map",
+        "map": "拉诺西亚高地",
+        "rank": null,
+        "position": [9.0, 21.5, 0],
+        "mob": "Master Coeurl / マスタークァール",
+        "level": 24
+      }
+    ]
+  },
+  {
+    "no": "92",
+    "spell_en": "Ultravibration",
+    "spell": "超振动",
+    "level": 68,
+    "icon": "003344.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "基拉巴尼亚山区",
+        "rank": null,
+        "position": "白鬼岩山",
+        "mob": "恐甲蚂蜓",
+        "level": 68
+      }
+    ]
+  },
+  {
+    "no": "93",
+    "spell_en": "Blaze",
+    "spell": "冰焰",
+    "level": 70,
+    "icon": "003345.png",
+    "method": [
+      {
+        "type": "raid",
+        "name": "欧米茄时空狭缝 德尔塔幻境1",
+        "mob": "?",
+        "level": 70
+      },
+      {
+        "type": "raid",
+        "name": "欧米茄零式时空狭缝 德尔塔幻境1",
+        "mob": "?",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "94",
+    "spell_en": "Mustard Bomb",
+    "spell": "芥末爆弹",
+    "level": 70,
+    "icon": "003346.png",
+    "method": [
+      {
+        "type": "raid",
+        "name": "欧米茄时空狭缝 阿尔法幻境3",
+        "mob": "?",
+        "level": 70
+      },
+      {
+        "type": "raid",
+        "name": "欧米茄零式时空狭缝 阿尔法幻境3",
+        "mob": "?",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "95",
+    "spell_en": "Dragon Force",
+    "spell_ja": "ドラゴンフォース",
+    "spell": "Dragon Force / ドラゴンフォース",
+    "level": 70,
+    "icon": "003347.png",
+    "method": [
+      {
+        "type": "special",
+        "text": "学习 100 个技能后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "96",
+    "spell_en": "Aetherial Spark",
+    "spell": "以太火花",
+    "level": 69,
+    "icon": "003348.png",
+    "method": [
+      {
+        "type": "map",
+        "map": "基拉巴尼亚湖区",
+        "rank": null,
+        "position": "盐湖 白路桥",
+        "mob": "陀鲁婆",
+        "level": 69
+      }
+    ]
+  },
+  {
+    "no": "97",
+    "spell_en": "Hydro Pull",
+    "spell": "水力吸引",
+    "level": 70,
+    "icon": "003349.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "沉没神殿斯卡拉遗迹",
+        "mob": "?",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "98",
+    "spell_en": "Malediction of Water",
+    "spell": "水脉诅咒",
+    "level": 70,
+    "icon": "003350.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "风水灵庙岩燕庙",
+        "mob": "?",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "99",
+    "spell_en": "Choco Meteor",
+    "spell": "陆行鸟陨石",
+    "level": 53,
+    "icon": "003351.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "失落之都拉巴纳斯塔",
+        "mob": "?",
+        "level": 70
+      },
+      {
+        "type": "map",
+        "map": "龙堡参天高地",
+        "rank": null,
+        "position": [34.7, 28.8, 0],
+        "mob": "Courser Chocobo / コーサーチョコボ",
+        "level": 53
+      }
+    ]
+  },
+  {
+    "no": "100",
+    "spell_en": "Matra Magic",
+    "spell_ja": "マトラマジック",
+    "spell": "Matra Magic / マトラマジック",
+    "level": 70,
+    "icon": "003352.png",
+    "method": [
+      {
+        "type": "special",
+        "text": "学习 100 个技能后可从[乌尔达哈来生回廊]的[异男子嘎希迦]处获得[天青图腾]",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "101",
+    "spell_en": "Peripheral Synthesis",
+    "spell": "生成外设",
+    "level": 70,
+    "icon": "003353.png",
+    "method": [
+      {
+        "type": "raid",
+        "name": "欧米茄时空狭缝 阿尔法幻境3",
+        "mob": "?",
+        "level": 70
+      },
+      {
+        "type": "raid",
+        "name": "欧米茄零式时空狭缝 阿尔法幻境3",
+        "mob": "?",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "102",
+    "spell_en": "Both Ends",
+    "spell": "如意大旋风",
+    "level": 70,
+    "icon": "003354.png",
+    "method": [
+      {
+        "type": "dungeon",
+        "name": "风水灵庙岩燕庙",
+        "mob": "?",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "103",
+    "spell_en": "Phantom Flurry",
+    "spell": "鬼宿脚",
+    "level": 70,
+    "icon": "003355.png",
+    "method": [
+      {
+        "type": "trail",
+        "name": "朱雀镇魂战",
+        "mob": "朱雀",
+        "level": 70
+      },
+      {
+        "type": "trail",
+        "name": "朱雀诗魂战",
+        "mob": "朱雀",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "no": "104",
+    "spell_en": "Nightbloom",
+    "spell": "月下彼岸花",
+    "level": 70,
+    "icon": "003357.png",
+    "method": [
+      {
+        "type": "trail",
+        "name": "月读歼灭战",
+        "mob": "月读",
+        "level": 70
+      },
+      {
+        "type": "trail",
+        "name": "月读幽夜歼灭战",
+        "mob": "月读",
+        "level": 70
+      }
+    ]
   }
 ]

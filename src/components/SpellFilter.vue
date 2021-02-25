@@ -2,7 +2,7 @@
   <div class="spell-filter">
     <h3>角色等级</h3>
     <div class="spell-level">
-      <input type="number" max="60" min="1" :value="filterLevel" @input="handleInput">
+      <input type="number" max="70" min="1" :value="filterLevel" @input="handleInput">
       <div class="spell-level-order" :class="{ checked: orderByLevel }" @click="handleOrder(orderByLevel)">按等级排序</div>
     </div>
 
@@ -29,7 +29,7 @@ export default {
   methods: {
     handleInput (e) {
       let val = +e.target.value
-      if (isNaN(val)) val = 60
+      if (isNaN(val)) val = 70
       this.$emit('levelChange', val)
     },
     handleClick (type, checked) {
