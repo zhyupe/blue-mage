@@ -6,8 +6,8 @@
       <img class="inst-spell-icon" :src="`icons/spells/${s.icon}`">
       <div class="inst-content">
         <h4>
+          <span v-if="s.no > 80" class="inst-version-tag">5.45</span>{{" "}}
           <span>[{{s.no}}]</span>
-          {{" "}}<span v-if="s.no > 80" class="inst-version-tag">5.45</span>
           {{s.spell}}
           <small>(Lv.{{s.level}})</small>
         </h4>
@@ -114,7 +114,8 @@ export default {
 }
 
 .inst-version-tag {
-  background-color: rgba(255, 255, 0, 0.5);
+  background-color: rgba(144, 103, 173);
+  font-size: 90%;
   color: black !important;
   font-weight: bold;
   padding: 2px;
