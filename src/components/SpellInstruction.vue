@@ -5,7 +5,12 @@
     <div v-for="s in showSpells" class="inst" :key="s.no">
       <img class="inst-spell-icon" :src="`icons/spells/${s.icon}`">
       <div class="inst-content">
-        <h4><span>[{{s.no}}]</span> {{s.spell}} <small>(Lv.{{s.level}})</small></h4>
+        <h4>
+          <span>[{{s.no}}]</span>
+          {{" "}}<span v-if="s.no > 80" class="inst-version-tag">5.45</span>
+          {{s.spell}}
+          <small>(Lv.{{s.level}})</small>
+        </h4>
         <p v-for="(m, mi) in s.method" :key="mi">
           <img class="inst-method-type" :src="`icons/type_${m.type}.png`">
           {{m | renderMethod}} <sup>Lv.{{m.level}}</sup>
@@ -106,5 +111,13 @@ export default {
   width: 16px;
   height: 16px;
   vertical-align: middle;
+}
+
+.inst-version-tag {
+  background-color: rgba(255, 255, 0, 0.5);
+  color: black !important;
+  font-weight: bold;
+  padding: 2px;
+  border-radius: 5px;
 }
 </style>
