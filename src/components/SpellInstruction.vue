@@ -3,7 +3,7 @@
     <h3>可学习技能列表</h3>
     <p v-if="showSpells.length === 0">当前条件下暂无可学习的技能</p>
     <div v-for="s in showSpells" class="inst" :key="s.no">
-      <img class="inst-spell-icon" :src="spellIcon(s, true)" :srcset="spellIconSrcset(s, true)">
+      <img class="inst-spell-icon" :src="spellIcon(s, true)" :srcset="spellIconSrcset(s, true)" :data-ck-action-id="s.action">
       <div class="inst-content">
         <h4>
           <span class="inst-version-tag" :class="{ ['inst-version-tag-' + s.patch.replace(/\./g, '-')]: true }">{{ s.patch }}</span>{{" "}}

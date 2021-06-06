@@ -7,7 +7,7 @@
     <div v-for="(s, i) in showSpells" :key="s.no" class="spell" :class="{
       lighter: (i % 2) === (Math.floor(i / 4) % 2),
       learned: !!s.learned
-    }" @click="handleClick(s, s.no - 1)" :title="s.spell ">
+    }" @click="handleClick(s, s.no - 1)" :title="s.spell" :data-ck-action-id="s.action">
       <img :src="spellIcon(s)" :srcset="spellIconSrcset(s)">
       <span>{{s.no}}</span>
     </div>
