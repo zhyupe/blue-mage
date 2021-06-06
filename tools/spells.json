@@ -4,7 +4,10 @@
     "action": 11385,
     "spell": "水炮",
     "level": 1,
-    "icon": "Water_Cannon.png",
+    "icon": "003253.png",
+    "icon_hr1": "003253_hr1.png",
+    "icon_book": "072203.png",
+    "icon_book_hr1": "072203_hr1.png",
     "method": [
       {
         "type": "special",
@@ -18,7 +21,10 @@
     "action": 11402,
     "spell": "火炎放射",
     "level": 50,
-    "icon": "Flame_Thrower.png",
+    "icon": "003270.png",
+    "icon_hr1": "003270_hr1.png",
+    "icon_book": "072220.png",
+    "icon_book_hr1": "072220_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -39,7 +45,10 @@
     "action": 11390,
     "spell": "水流吐息",
     "level": 50,
-    "icon": "Aqua_Breath.png",
+    "icon": "003258.png",
+    "icon_hr1": "003258_hr1.png",
+    "icon_book": "072208.png",
+    "icon_book_hr1": "072208_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -72,7 +81,10 @@
     "action": 11389,
     "spell": "狂乱",
     "level": 50,
-    "icon": "Flying_Frenzy.png",
+    "icon": "003257.png",
+    "icon_hr1": "003257_hr1.png",
+    "icon_book": "072207.png",
+    "icon_book_hr1": "072207_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -96,7 +108,10 @@
     "action": 11398,
     "spell": "钻头炮",
     "level": 46,
-    "icon": "Drill_Cannons.png",
+    "icon": "003266.png",
+    "icon_hr1": "003266_hr1.png",
+    "icon_book": "072216.png",
+    "icon_book_hr1": "072216_hr1.png",
     "method": [
       {
         "type": "fate",
@@ -143,7 +158,10 @@
     "action": 11387,
     "spell": "高压电流",
     "level": 50,
-    "icon": "High_Voltage.png",
+    "icon": "003255.png",
+    "icon_hr1": "003255_hr1.png",
+    "icon_book": "072205.png",
+    "icon_book_hr1": "072205_hr1.png",
     "method": [
       {
         "type": "raid",
@@ -170,7 +188,10 @@
     "action": 11401,
     "spell": "若隐若现",
     "level": 50,
-    "icon": "Loom.png",
+    "icon": "003269.png",
+    "icon_hr1": "003269_hr1.png",
+    "icon_book": "072219.png",
+    "icon_book_hr1": "072219_hr1.png",
     "method": [
       {
         "type": "map",
@@ -199,7 +220,10 @@
     "action": 11407,
     "spell": "终极针",
     "level": 13,
-    "icon": "Final_Sting.png",
+    "icon": "003275.png",
+    "icon_hr1": "003275_hr1.png",
+    "icon_book": "072225.png",
+    "icon_book_hr1": "072225_hr1.png",
     "method": [
       {
         "type": "map",
@@ -226,7 +250,10 @@
     "action": 11386,
     "spell": "苦闷之歌",
     "level": 50,
-    "icon": "Song_of_Torment.png",
+    "icon": "003254.png",
+    "icon_hr1": "003254_hr1.png",
+    "icon_book": "072204.png",
+    "icon_book_hr1": "072204_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -241,7 +268,10 @@
     "action": 11404,
     "spell": "怒视",
     "level": 47,
-    "icon": "Glower.png",
+    "icon": "003272.png",
+    "icon_hr1": "003272_hr1.png",
+    "icon_book": "072222.png",
+    "icon_book_hr1": "072222_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -264,7 +294,10 @@
     "action": 11391,
     "spell": "平原震裂",
     "level": 28,
-    "icon": "Plaincracker.png",
+    "icon": "003259.png",
+    "icon_hr1": "003259_hr1.png",
+    "icon_book": "072209.png",
+    "icon_book_hr1": "072209_hr1.png",
     "method": [
       {
         "type": "map",
@@ -327,7 +360,10 @@
     "action": 11393,
     "spell": "怒发冲冠",
     "level": 20,
-    "icon": "Bristle.png",
+    "icon": "003261.png",
+    "icon_hr1": "003261_hr1.png",
+    "icon_book": "072211.png",
+    "icon_book_hr1": "072211_hr1.png",
     "method": [
       {
         "type": "map",
@@ -348,7 +384,10 @@
     "action": 11406,
     "spell": "白风",
     "level": 1,
-    "icon": "White_Wind.png",
+    "icon": "003274.png",
+    "icon_hr1": "003274_hr1.png",
+    "icon_book": "072224.png",
+    "icon_book_hr1": "072224_hr1.png",
     "method": [
       {
         "type": "special",
@@ -368,7 +407,10 @@
     "action": 11414,
     "spell": "5级石化",
     "level": 28,
-    "icon": "Level_5_Petrify.png",
+    "icon": "003282.png",
+    "icon_hr1": "003282_hr1.png",
+    "icon_book": "072232.png",
+    "icon_book_hr1": "072232_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -390,7 +432,10 @@
     "action": 11400,
     "spell": "锋利菜刀",
     "level": 50,
-    "icon": "Sharpened_Knife.png",
+    "icon": "003268.png",
+    "icon_hr1": "003268_hr1.png",
+    "icon_book": "072218.png",
+    "icon_book_hr1": "072218_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -413,7 +458,10 @@
     "action": 11418,
     "spell": "冰棘屏障",
     "level": 9,
-    "icon": "Ice_Spikes.png",
+    "icon": "003286.png",
+    "icon_hr1": "003286_hr1.png",
+    "icon_book": "072236.png",
+    "icon_book_hr1": "072236_hr1.png",
     "method": [
       {
         "type": "map",
@@ -446,7 +494,10 @@
     "action": 11395,
     "spell": "吸血",
     "level": 7,
-    "icon": "Blood_Drain.png",
+    "icon": "003263.png",
+    "icon_hr1": "003263_hr1.png",
+    "icon_book": "072213.png",
+    "icon_book_hr1": "072213_hr1.png",
     "method": [
       {
         "type": "map",
@@ -551,7 +602,10 @@
     "action": 11392,
     "spell": "橡果炸弹",
     "level": 12,
-    "icon": "Acorn_Bomb.png",
+    "icon": "003260.png",
+    "icon_hr1": "003260_hr1.png",
+    "icon_book": "072210.png",
+    "icon_book_hr1": "072210_hr1.png",
     "method": [
       {
         "type": "map",
@@ -609,7 +663,10 @@
     "action": 11396,
     "spell": "投弹",
     "level": 5,
-    "icon": "Bomb_Toss.png",
+    "icon": "003264.png",
+    "icon_hr1": "003264_hr1.png",
+    "icon_book": "072214.png",
+    "icon_book_hr1": "072214_hr1.png",
     "method": [
       {
         "type": "map",
@@ -672,7 +729,10 @@
     "action": 11411,
     "spell": "破防",
     "level": 1,
-    "icon": "Off-guard.png",
+    "icon": "003279.png",
+    "icon_hr1": "003279_hr1.png",
+    "icon_book": "072229.png",
+    "icon_book_hr1": "072229_hr1.png",
     "method": [
       {
         "type": "special",
@@ -686,7 +746,10 @@
     "action": 11408,
     "spell": "自爆",
     "level": 12,
-    "icon": "Self-destruct.png",
+    "icon": "003276.png",
+    "icon_hr1": "003276_hr1.png",
+    "icon_book": "072226.png",
+    "icon_book_hr1": "072226_hr1.png",
     "method": [
       {
         "type": "map",
@@ -737,7 +800,10 @@
     "action": 11409,
     "spell": "融合",
     "level": 1,
-    "icon": "Transfusion.png",
+    "icon": "003277.png",
+    "icon_hr1": "003277_hr1.png",
+    "icon_book": "072227.png",
+    "icon_book_hr1": "072227_hr1.png",
     "method": [
       {
         "type": "special",
@@ -751,7 +817,10 @@
     "action": 11403,
     "spell": "拍掌",
     "level": 6,
-    "icon": "Faze.png",
+    "icon": "003271.png",
+    "icon_hr1": "003271_hr1.png",
+    "icon_book": "072221.png",
+    "icon_book_hr1": "072221_hr1.png",
     "method": [
       {
         "type": "map",
@@ -784,7 +853,10 @@
     "action": 11423,
     "spell": "投掷沙丁鱼",
     "level": 30,
-    "icon": "Flying_Sardine.png",
+    "icon": "003291.png",
+    "icon_hr1": "003291_hr1.png",
+    "icon_book": "072241.png",
+    "icon_book_hr1": "072241_hr1.png",
     "method": [
       {
         "type": "map",
@@ -813,7 +885,10 @@
     "action": 11383,
     "spell": "鼻息",
     "level": 50,
-    "icon": "Snort.png",
+    "icon": "003251.png",
+    "icon_hr1": "003251_hr1.png",
+    "icon_book": "072201.png",
+    "icon_book_hr1": "072201_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -834,7 +909,10 @@
     "action": 11384,
     "spell": "4星吨",
     "level": 50,
-    "icon": "4-tonze_Weight.png",
+    "icon": "003252.png",
+    "icon_hr1": "003252_hr1.png",
+    "icon_book": "072202.png",
+    "icon_book_hr1": "072202_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -849,7 +927,10 @@
     "action": 11399,
     "spell": "诡异视线",
     "level": 50,
-    "icon": "The_Look.png",
+    "icon": "003267.png",
+    "icon_hr1": "003267_hr1.png",
+    "icon_book": "072217.png",
+    "icon_book_hr1": "072217_hr1.png",
     "method": [
       {
         "type": "map",
@@ -878,7 +959,10 @@
     "action": 11388,
     "spell": "臭气",
     "level": 31,
-    "icon": "Bad_Breath.png",
+    "icon": "003256.png",
+    "icon_hr1": "003256_hr1.png",
+    "icon_book": "072206.png",
+    "icon_book_hr1": "072206_hr1.png",
     "method": [
       {
         "type": "map",
@@ -917,7 +1001,10 @@
     "action": 11424,
     "spell": "超硬化",
     "level": 50,
-    "icon": "Diamondback.png",
+    "icon": "003292.png",
+    "icon_hr1": "003292_hr1.png",
+    "icon_book": "072242.png",
+    "icon_book_hr1": "072242_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -945,7 +1032,10 @@
     "action": 11417,
     "spell": "强力守护",
     "level": 1,
-    "icon": "Mighty_Guard.png",
+    "icon": "003285.png",
+    "icon_hr1": "003285_hr1.png",
+    "icon_book": "072235.png",
+    "icon_book_hr1": "072235_hr1.png",
     "method": [
       {
         "type": "special",
@@ -959,7 +1049,10 @@
     "action": 11412,
     "spell": "滑舌",
     "level": 14,
-    "icon": "Sticky_Tongue.png",
+    "icon": "003280.png",
+    "icon_hr1": "003280_hr1.png",
+    "icon_book": "072230.png",
+    "icon_book_hr1": "072230_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1004,7 +1097,10 @@
     "action": 11410,
     "spell": "油性分泌物",
     "level": 24,
-    "icon": "Toad_Oil.png",
+    "icon": "003278.png",
+    "icon_hr1": "003278_hr1.png",
+    "icon_book": "072228.png",
+    "icon_book_hr1": "072228_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1025,7 +1121,10 @@
     "action": 11419,
     "spell": "寒冰咆哮",
     "level": 38,
-    "icon": "The_Ram's_Voice.png",
+    "icon": "003287.png",
+    "icon_hr1": "003287_hr1.png",
+    "icon_book": "072237.png",
+    "icon_book_hr1": "072237_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1053,7 +1152,10 @@
     "action": 11420,
     "spell": "雷电咆哮",
     "level": 38,
-    "icon": "The_Dragon's_Voice.png",
+    "icon": "003288.png",
+    "icon_hr1": "003288_hr1.png",
+    "icon_book": "072238.png",
+    "icon_book_hr1": "072238_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1093,7 +1195,10 @@
     "action": 11405,
     "spell": "导弹",
     "level": 50,
-    "icon": "Missile.png",
+    "icon": "003273.png",
+    "icon_hr1": "003273_hr1.png",
+    "icon_book": "072223.png",
+    "icon_book_hr1": "072223_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -1108,7 +1213,10 @@
     "action": 11397,
     "spell": "千针刺",
     "level": 24,
-    "icon": "1000_Needles.png",
+    "icon": "003265.png",
+    "icon_hr1": "003265_hr1.png",
+    "icon_book": "072215.png",
+    "icon_book_hr1": "072215_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1135,7 +1243,10 @@
     "action": 11422,
     "spell": "喷墨",
     "level": 50,
-    "icon": "Ink_Jet.png",
+    "icon": "003290.png",
+    "icon_hr1": "003290_hr1.png",
+    "icon_book": "072240.png",
+    "icon_book_hr1": "072240_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1150,7 +1261,10 @@
     "action": 11425,
     "spell": "火投枪",
     "level": 50,
-    "icon": "Fire_Angon.png",
+    "icon": "003293.png",
+    "icon_hr1": "003293_hr1.png",
+    "icon_book": "072243.png",
+    "icon_book_hr1": "072243_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1165,7 +1279,10 @@
     "action": 11415,
     "spell": "月之笛",
     "level": 1,
-    "icon": "Moon_Flute.png",
+    "icon": "003283.png",
+    "icon_hr1": "003283_hr1.png",
+    "icon_book": "072233.png",
+    "icon_book_hr1": "072233_hr1.png",
     "method": [
       {
         "type": "special",
@@ -1179,7 +1296,10 @@
     "action": 11413,
     "spell": "螺旋尾",
     "level": 50,
-    "icon": "Tail_Screw.png",
+    "icon": "003281.png",
+    "icon_hr1": "003281_hr1.png",
+    "icon_book": "072231.png",
+    "icon_book_hr1": "072231_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1206,7 +1326,10 @@
     "action": 11394,
     "spell": "精神冲击",
     "level": 16,
-    "icon": "Mind_Blast.png",
+    "icon": "003262.png",
+    "icon_hr1": "003262_hr1.png",
+    "icon_book": "072212.png",
+    "icon_book_hr1": "072212_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1229,7 +1352,10 @@
     "action": 11416,
     "spell": "死亡宣告",
     "level": 1,
-    "icon": "Doom.png",
+    "icon": "003284.png",
+    "icon_hr1": "003284_hr1.png",
+    "icon_book": "072234.png",
+    "icon_book_hr1": "072234_hr1.png",
     "method": [
       {
         "type": "special",
@@ -1243,7 +1369,10 @@
     "action": 11421,
     "spell": "惊奇光",
     "level": 45,
-    "icon": "Peculiar_Light.png",
+    "icon": "003289.png",
+    "icon_hr1": "003289_hr1.png",
+    "icon_book": "072239.png",
+    "icon_book_hr1": "072239_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1270,7 +1399,10 @@
     "action": 11426,
     "spell": "飞翎雨",
     "level": 50,
-    "icon": "Feather_Rain.png",
+    "icon": "003294.png",
+    "icon_hr1": "003294_hr1.png",
+    "icon_book": "072244.png",
+    "icon_book_hr1": "072244_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -1285,7 +1417,10 @@
     "action": 11427,
     "spell": "地火喷发",
     "level": 50,
-    "icon": "Eruption.png",
+    "icon": "003295.png",
+    "icon_hr1": "003295_hr1.png",
+    "icon_book": "072245.png",
+    "icon_book_hr1": "072245_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -1312,7 +1447,10 @@
     "action": 11428,
     "spell": "山崩",
     "level": 50,
-    "icon": "Mountain_Buster.png",
+    "icon": "003296.png",
+    "icon_hr1": "003296_hr1.png",
+    "icon_book": "072246.png",
+    "icon_book_hr1": "072246_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -1333,7 +1471,10 @@
     "action": 11429,
     "spell": "轰雷",
     "level": 50,
-    "icon": "Shock_Strike.png",
+    "icon": "003297.png",
+    "icon_hr1": "003297_hr1.png",
+    "icon_book": "072247.png",
+    "icon_book_hr1": "072247_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -1354,7 +1495,10 @@
     "action": 11430,
     "spell": "冰雪乱舞",
     "level": 50,
-    "icon": "Glass_Dance.png",
+    "icon": "003298.png",
+    "icon_hr1": "003298_hr1.png",
+    "icon_book": "072248.png",
+    "icon_book_hr1": "072248_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -1369,7 +1513,10 @@
     "action": 11431,
     "spell": "水神的面纱",
     "level": 50,
-    "icon": "Veil_of_the_Whorl.png",
+    "icon": "003299.png",
+    "icon_hr1": "003299_hr1.png",
+    "icon_book": "072249.png",
+    "icon_book_hr1": "072249_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -1391,6 +1538,9 @@
     "spell": "高山气流",
     "level": 59,
     "icon": "003300.png",
+    "icon_hr1": "003300_hr1.png",
+    "icon_book": "072251.png",
+    "icon_book_hr1": "072251_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1418,6 +1568,9 @@
     "spell": "万变水波",
     "level": 60,
     "icon": "003301.png",
+    "icon_hr1": "003301_hr1.png",
+    "icon_book": "072252.png",
+    "icon_book_hr1": "072252_hr1.png",
     "method": [
       {
         "type": "raid",
@@ -1445,6 +1598,9 @@
     "spell": "狂风暴雪",
     "level": 56,
     "icon": "003302.png",
+    "icon_hr1": "003302_hr1.png",
+    "icon_book": "072253.png",
+    "icon_book_hr1": "072253_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1466,6 +1622,9 @@
     "spell": "生物电",
     "level": 50,
     "icon": "003303.png",
+    "icon_hr1": "003303_hr1.png",
+    "icon_book": "072254.png",
+    "icon_book_hr1": "072254_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1487,6 +1646,9 @@
     "spell": "寒光",
     "level": 60,
     "icon": "003304.png",
+    "icon_hr1": "003304_hr1.png",
+    "icon_book": "072255.png",
+    "icon_book_hr1": "072255_hr1.png",
     "method": [
       {
         "type": "raid",
@@ -1508,6 +1670,9 @@
     "spell": "深渊贯穿",
     "level": 58,
     "icon": "003305.png",
+    "icon_hr1": "003305_hr1.png",
+    "icon_book": "072256.png",
+    "icon_book_hr1": "072256_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1532,6 +1697,9 @@
     "spell": "唧唧咋咋",
     "level": 50,
     "icon": "003306.png",
+    "icon_hr1": "003306_hr1.png",
+    "icon_book": "072257.png",
+    "icon_book_hr1": "072257_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1553,6 +1721,9 @@
     "spell": "怪音波",
     "level": 59,
     "icon": "003307.png",
+    "icon_hr1": "003307_hr1.png",
+    "icon_book": "072258.png",
+    "icon_book_hr1": "072258_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1574,6 +1745,9 @@
     "spell": "绒绒治疗",
     "level": 50,
     "icon": "003308.png",
+    "icon_hr1": "003308_hr1.png",
+    "icon_book": "072259.png",
+    "icon_book_hr1": "072259_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -1595,6 +1769,9 @@
     "spell": "哥布防御",
     "level": 60,
     "icon": "003309.png",
+    "icon_hr1": "003309_hr1.png",
+    "icon_book": "072260.png",
+    "icon_book_hr1": "072260_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1618,6 +1795,9 @@
     "spell": "魔法锤",
     "level": 60,
     "icon": "003310.png",
+    "icon_hr1": "003310_hr1.png",
+    "icon_book": "072261.png",
+    "icon_book_hr1": "072261_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1639,6 +1819,9 @@
     "spell": "防御指示",
     "level": 60,
     "icon": "003311.png",
+    "icon_hr1": "003311_hr1.png",
+    "icon_book": "072262.png",
+    "icon_book_hr1": "072262_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1654,6 +1837,9 @@
     "spell": "蛙腿",
     "level": 59,
     "icon": "003312.png",
+    "icon_hr1": "003312_hr1.png",
+    "icon_book": "072263.png",
+    "icon_book_hr1": "072263_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1676,6 +1862,9 @@
     "spell": "音爆",
     "level": 47,
     "icon": "003313.png",
+    "icon_hr1": "003313_hr1.png",
+    "icon_book": "072264.png",
+    "icon_book_hr1": "072264_hr1.png",
     "method": [
       {
         "type": "fate",
@@ -1710,6 +1899,9 @@
     "spell": "口笛",
     "level": 56,
     "icon": "003314.png",
+    "icon_hr1": "003314_hr1.png",
+    "icon_book": "072265.png",
+    "icon_book_hr1": "072265_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1731,6 +1923,9 @@
     "spell": "白骑士之旅",
     "level": 57,
     "icon": "003315.png",
+    "icon_hr1": "003315_hr1.png",
+    "icon_book": "072266.png",
+    "icon_book_hr1": "072266_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1746,6 +1941,9 @@
     "spell": "黑骑士之旅",
     "level": 57,
     "icon": "003316.png",
+    "icon_hr1": "003316_hr1.png",
+    "icon_book": "072267.png",
+    "icon_book_hr1": "072267_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1761,6 +1959,9 @@
     "spell": "5级即死",
     "level": 59,
     "icon": "003317.png",
+    "icon_hr1": "003317_hr1.png",
+    "icon_book": "072268.png",
+    "icon_book_hr1": "072268_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1776,6 +1977,9 @@
     "spell": "火箭炮",
     "level": 60,
     "icon": "003318.png",
+    "icon_hr1": "003318_hr1.png",
+    "icon_book": "072269.png",
+    "icon_book_hr1": "072269_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1791,6 +1995,9 @@
     "spell": "永恒射线",
     "level": 60,
     "icon": "003319.png",
+    "icon_hr1": "003319_hr1.png",
+    "icon_book": "072270.png",
+    "icon_book_hr1": "072270_hr1.png",
     "method": [
       {
         "type": "raid",
@@ -1812,6 +2019,9 @@
     "spell": "仙人盾",
     "level": 50,
     "icon": "003320.png",
+    "icon_hr1": "003320_hr1.png",
+    "icon_book": "072271.png",
+    "icon_book_hr1": "072271_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1827,6 +2037,9 @@
     "spell": "复仇冲击",
     "level": 60,
     "icon": "003321.png",
+    "icon_hr1": "003321_hr1.png",
+    "icon_book": "072272.png",
+    "icon_book_hr1": "072272_hr1.png",
     "method": [
       {
         "type": "special",
@@ -1841,6 +2054,9 @@
     "spell": "天使低语",
     "level": 60,
     "icon": "003322.png",
+    "icon_hr1": "003322_hr1.png",
+    "icon_book": "072273.png",
+    "icon_book_hr1": "072273_hr1.png",
     "method": [
       {
         "type": "special",
@@ -1855,6 +2071,9 @@
     "spell": "蜕皮",
     "level": 50,
     "icon": "003323.png",
+    "icon_hr1": "003323_hr1.png",
+    "icon_book": "072274.png",
+    "icon_book_hr1": "072274_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1882,6 +2101,9 @@
     "spell": "逆流",
     "level": 56,
     "icon": "003324.png",
+    "icon_hr1": "003324_hr1.png",
+    "icon_book": "072275.png",
+    "icon_book_hr1": "072275_hr1.png",
     "method": [
       {
         "type": "map",
@@ -1909,6 +2131,9 @@
     "spell": "捕食",
     "level": 50,
     "icon": "003325.png",
+    "icon_hr1": "003325_hr1.png",
+    "icon_book": "072276.png",
+    "icon_book_hr1": "072276_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1930,6 +2155,9 @@
     "spell": "小侦测",
     "level": 60,
     "icon": "003326.png",
+    "icon_hr1": "003326_hr1.png",
+    "icon_book": "072277.png",
+    "icon_book_hr1": "072277_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1951,6 +2179,9 @@
     "spell": "以太复制",
     "level": 60,
     "icon": "003327.png",
+    "icon_hr1": "003327_hr1.png",
+    "icon_book": "072278.png",
+    "icon_book_hr1": "072278_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -1966,6 +2197,9 @@
     "spell": "穿甲散弹",
     "level": 53,
     "icon": "003328.png",
+    "icon_hr1": "003328_hr1.png",
+    "icon_book": "072279.png",
+    "icon_book_hr1": "072279_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -1987,6 +2221,9 @@
     "spell": "类星体",
     "level": 60,
     "icon": "003329.png",
+    "icon_hr1": "003329_hr1.png",
+    "icon_book": "072280.png",
+    "icon_book_hr1": "072280_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -2008,6 +2245,9 @@
     "spell": "正义飞踢",
     "level": 60,
     "icon": "003330.png",
+    "icon_hr1": "003330_hr1.png",
+    "icon_book": "072281.png",
+    "icon_book_hr1": "072281_hr1.png",
     "method": [
       {
         "type": "raid",
@@ -2030,6 +2270,9 @@
     "spell": "渔叉三段",
     "level": 67,
     "icon": "003331.png",
+    "icon_hr1": "003331_hr1.png",
+    "icon_book": "072282.png",
+    "icon_book_hr1": "072282_hr1.png",
     "method": [
       {
         "type": "map",
@@ -2060,6 +2303,9 @@
     "spell": "哔哩哔哩",
     "level": 67,
     "icon": "003332.png",
+    "icon_hr1": "003332_hr1.png",
+    "icon_book": "072283.png",
+    "icon_book_hr1": "072283_hr1.png",
     "method": [
       {
         "type": "map",
@@ -2090,6 +2336,9 @@
     "spell": "掀地板之术",
     "level": 70,
     "icon": "003333.png",
+    "icon_hr1": "003333_hr1.png",
+    "icon_book": "072284.png",
+    "icon_book_hr1": "072284_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -2106,6 +2355,9 @@
     "spell": "彻骨雾寒",
     "level": 70,
     "icon": "003334.png",
+    "icon_hr1": "003334_hr1.png",
+    "icon_book": "072285.png",
+    "icon_book_hr1": "072285_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -2122,6 +2374,9 @@
     "spell": "赞歌",
     "level": 67,
     "icon": "003336.png",
+    "icon_hr1": "003336_hr1.png",
+    "icon_book": "072286.png",
+    "icon_book_hr1": "072286_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -2144,6 +2399,9 @@
     "spell": "圣光射线",
     "level": 70,
     "icon": "003337.png",
+    "icon_hr1": "003337_hr1.png",
+    "icon_book": "072287.png",
+    "icon_book_hr1": "072287_hr1.png",
     "method": [
       {
         "type": "raid",
@@ -2166,6 +2424,9 @@
     "spell": "污泥泼洒",
     "level": 70,
     "icon": "003338.png",
+    "icon_hr1": "003338_hr1.png",
+    "icon_book": "072288.png",
+    "icon_book_hr1": "072288_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -2191,6 +2452,9 @@
     "spell": "天使的点心",
     "level": 70,
     "icon": "003339.png",
+    "icon_hr1": "003339_hr1.png",
+    "icon_book": "072289.png",
+    "icon_book_hr1": "072289_hr1.png",
     "method": [
       {
         "type": "special",
@@ -2206,6 +2470,9 @@
     "spell": "玄结界",
     "level": 70,
     "icon": "003340.png",
+    "icon_hr1": "003340_hr1.png",
+    "icon_book": "072290.png",
+    "icon_book_hr1": "072290_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -2222,6 +2489,9 @@
     "spell": "斗灵弹",
     "level": 70,
     "icon": "003342.png",
+    "icon_hr1": "003342_hr1.png",
+    "icon_book": "072291.png",
+    "icon_book_hr1": "072291_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -2238,6 +2508,9 @@
     "spell": "斗争本能",
     "level": 24,
     "icon": "003343.png",
+    "icon_hr1": "003343_hr1.png",
+    "icon_book": "072292.png",
+    "icon_book_hr1": "072292_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -2266,6 +2539,9 @@
     "spell": "超振动",
     "level": 68,
     "icon": "003344.png",
+    "icon_hr1": "003344_hr1.png",
+    "icon_book": "072293.png",
+    "icon_book_hr1": "072293_hr1.png",
     "method": [
       {
         "type": "map",
@@ -2296,6 +2572,9 @@
     "spell": "冰焰",
     "level": 70,
     "icon": "003345.png",
+    "icon_hr1": "003345_hr1.png",
+    "icon_book": "072294.png",
+    "icon_book_hr1": "072294_hr1.png",
     "method": [
       {
         "type": "raid",
@@ -2318,6 +2597,9 @@
     "spell": "芥末爆弹",
     "level": 70,
     "icon": "003346.png",
+    "icon_hr1": "003346_hr1.png",
+    "icon_book": "072295.png",
+    "icon_book_hr1": "072295_hr1.png",
     "method": [
       {
         "type": "raid",
@@ -2341,6 +2623,9 @@
     "spell": "龙之力",
     "level": 70,
     "icon": "003347.png",
+    "icon_hr1": "003347_hr1.png",
+    "icon_book": "072296.png",
+    "icon_book_hr1": "072296_hr1.png",
     "method": [
       {
         "type": "special",
@@ -2356,6 +2641,9 @@
     "spell": "以太火花",
     "level": 69,
     "icon": "003348.png",
+    "icon_hr1": "003348_hr1.png",
+    "icon_book": "072297.png",
+    "icon_book_hr1": "072297_hr1.png",
     "method": [
       {
         "type": "map",
@@ -2386,6 +2674,9 @@
     "spell": "水力吸引",
     "level": 70,
     "icon": "003349.png",
+    "icon_hr1": "003349_hr1.png",
+    "icon_book": "072298.png",
+    "icon_book_hr1": "072298_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -2402,6 +2693,9 @@
     "spell": "水脉诅咒",
     "level": 70,
     "icon": "003350.png",
+    "icon_hr1": "003350_hr1.png",
+    "icon_book": "072299.png",
+    "icon_book_hr1": "072299_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -2418,6 +2712,9 @@
     "spell": "陆行鸟陨石",
     "level": 53,
     "icon": "003351.png",
+    "icon_hr1": "003351_hr1.png",
+    "icon_book": "072300.png",
+    "icon_book_hr1": "072300_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -2447,6 +2744,9 @@
     "spell": "马特拉魔术",
     "level": 70,
     "icon": "003352.png",
+    "icon_hr1": "003352_hr1.png",
+    "icon_book": "072301.png",
+    "icon_book_hr1": "072301_hr1.png",
     "method": [
       {
         "type": "special",
@@ -2462,6 +2762,9 @@
     "spell": "生成外设",
     "level": 70,
     "icon": "003353.png",
+    "icon_hr1": "003353_hr1.png",
+    "icon_book": "072302.png",
+    "icon_book_hr1": "072302_hr1.png",
     "method": [
       {
         "type": "raid",
@@ -2484,6 +2787,9 @@
     "spell": "如意大旋风",
     "level": 70,
     "icon": "003354.png",
+    "icon_hr1": "003354_hr1.png",
+    "icon_book": "072303.png",
+    "icon_book_hr1": "072303_hr1.png",
     "method": [
       {
         "type": "dungeon",
@@ -2500,6 +2806,9 @@
     "spell": "鬼宿脚",
     "level": 70,
     "icon": "003355.png",
+    "icon_hr1": "003355_hr1.png",
+    "icon_book": "072304.png",
+    "icon_book_hr1": "072304_hr1.png",
     "method": [
       {
         "type": "trail",
@@ -2522,6 +2831,9 @@
     "spell": "月下彼岸花",
     "level": 70,
     "icon": "003357.png",
+    "icon_hr1": "003357_hr1.png",
+    "icon_book": "072305.png",
+    "icon_book_hr1": "072305_hr1.png",
     "method": [
       {
         "type": "trail",
