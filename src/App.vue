@@ -88,7 +88,7 @@ export default {
         trail: true,
         raid: true,
       }, loadSetting('filter-types') || {}),
-      filterLevel: loadSetting('filter-level') || 60,
+      filterLevel: loadSetting('filter-level') || 70,
       orderByLevel: loadSetting('order-by-level') || false
     }
   },

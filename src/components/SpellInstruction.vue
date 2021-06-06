@@ -3,10 +3,10 @@
     <h3>可学习技能列表</h3>
     <p v-if="showSpells.length === 0">当前条件下暂无可学习的技能</p>
     <div v-for="s in showSpells" class="inst" :key="s.no">
-      <img class="inst-spell-icon" :src="`icons/spells/${s.icon}`">
+      <img class="inst-spell-icon" :src="spellIcon(s, true)" :srcset="spellIconSrcset(s, true)">
       <div class="inst-content">
         <h4>
-          <span v-if="s.no > 80" class="inst-version-tag">5.45</span>{{" "}}
+          <span class="inst-version-tag" :class="{ ['inst-version-tag-' + s.patch.replace(/\./g, '-')]: true }">{{ s.patch }}</span>{{" "}}
           <span>[{{s.no}}]</span>
           {{s.spell}}
           <small>(Lv.{{s.level}})</small>
@@ -24,6 +24,8 @@
 </template>
 
 <script>
+import { spellIcon, spellIconSrcset } from '../icon'
+
 export default {
   props: {
     spells: Array,
@@ -64,7 +66,8 @@ export default {
     handleClick (s, i) {
       s.learned = !s.learned
       this.$emit('change', i, s.learned)
-    }
+    },
+    spellIcon, spellIconSrcset
   }
 }
 </script>
@@ -137,5 +140,17 @@ export default {
   font-weight: bold;
   padding: 2px;
   border-radius: 5px;
+}
+
+.inst-version-tag-4-5 {
+  background-color: rgba(228, 101, 124);
+}
+
+.inst-version-tag-5-15 {
+  background-color: rgba(127, 15, 170);
+}
+
+.inst-version-tag-5-45 {
+  background-color: rgba(144, 103, 173);
 }
 </style>

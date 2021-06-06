@@ -2,6 +2,7 @@
   {
     "no": "1",
     "action": 11385,
+    "patch": "4.5",
     "spell": "水炮",
     "level": 1,
     "icon": "003253.png",
@@ -19,6 +20,7 @@
   {
     "no": "2",
     "action": 11402,
+    "patch": "4.5",
     "spell": "火炎放射",
     "level": 50,
     "icon": "003270.png",
@@ -43,6 +45,7 @@
   {
     "no": "3",
     "action": 11390,
+    "patch": "4.5",
     "spell": "水流吐息",
     "level": 50,
     "icon": "003258.png",
@@ -79,6 +82,7 @@
   {
     "no": "4",
     "action": 11389,
+    "patch": "4.5",
     "spell": "狂乱",
     "level": 50,
     "icon": "003257.png",
@@ -106,6 +110,7 @@
   {
     "no": "5",
     "action": 11398,
+    "patch": "4.5",
     "spell": "钻头炮",
     "level": 46,
     "icon": "003266.png",
@@ -156,6 +161,7 @@
   {
     "no": "6",
     "action": 11387,
+    "patch": "4.5",
     "spell": "高压电流",
     "level": 50,
     "icon": "003255.png",
@@ -186,6 +192,7 @@
   {
     "no": "7",
     "action": 11401,
+    "patch": "4.5",
     "spell": "若隐若现",
     "level": 50,
     "icon": "003269.png",
@@ -218,6 +225,7 @@
   {
     "no": "8",
     "action": 11407,
+    "patch": "4.5",
     "spell": "终极针",
     "level": 13,
     "icon": "003275.png",
@@ -248,6 +256,7 @@
   {
     "no": "9",
     "action": 11386,
+    "patch": "4.5",
     "spell": "苦闷之歌",
     "level": 50,
     "icon": "003254.png",
@@ -266,6 +275,7 @@
   {
     "no": "10",
     "action": 11404,
+    "patch": "4.5",
     "spell": "怒视",
     "level": 47,
     "icon": "003272.png",
@@ -292,6 +302,7 @@
   {
     "no": "11",
     "action": 11391,
+    "patch": "4.5",
     "spell": "平原震裂",
     "level": 28,
     "icon": "003259.png",
@@ -358,6 +369,7 @@
   {
     "no": "12",
     "action": 11393,
+    "patch": "4.5",
     "spell": "怒发冲冠",
     "level": 20,
     "icon": "003261.png",
@@ -382,6 +394,7 @@
   {
     "no": "13",
     "action": 11406,
+    "patch": "4.5",
     "spell": "白风",
     "level": 1,
     "icon": "003274.png",
@@ -405,6 +418,7 @@
   {
     "no": "14",
     "action": 11414,
+    "patch": "4.5",
     "spell": "5级石化",
     "level": 28,
     "icon": "003282.png",
@@ -430,6 +444,7 @@
   {
     "no": "15",
     "action": 11400,
+    "patch": "4.5",
     "spell": "锋利菜刀",
     "level": 50,
     "icon": "003268.png",
@@ -456,6 +471,7 @@
   {
     "no": "16",
     "action": 11418,
+    "patch": "4.5",
     "spell": "冰棘屏障",
     "level": 9,
     "icon": "003286.png",
@@ -492,6 +508,7 @@
   {
     "no": "17",
     "action": 11395,
+    "patch": "4.5",
     "spell": "吸血",
     "level": 7,
     "icon": "003263.png",
@@ -600,6 +617,7 @@
   {
     "no": "18",
     "action": 11392,
+    "patch": "4.5",
     "spell": "橡果炸弹",
     "level": 12,
     "icon": "003260.png",
@@ -661,6 +679,7 @@
   {
     "no": "19",
     "action": 11396,
+    "patch": "4.5",
     "spell": "投弹",
     "level": 5,
     "icon": "003264.png",
@@ -727,6 +746,7 @@
   {
     "no": "20",
     "action": 11411,
+    "patch": "4.5",
     "spell": "破防",
     "level": 1,
     "icon": "003279.png",
@@ -744,6 +764,7 @@
   {
     "no": "21",
     "action": 11408,
+    "patch": "4.5",
     "spell": "自爆",
     "level": 12,
     "icon": "003276.png",
@@ -798,6 +819,7 @@
   {
     "no": "22",
     "action": 11409,
+    "patch": "4.5",
     "spell": "融合",
     "level": 1,
     "icon": "003277.png",
@@ -815,6 +837,7 @@
   {
     "no": "23",
     "action": 11403,
+    "patch": "4.5",
     "spell": "拍掌",
     "level": 6,
     "icon": "003271.png",
@@ -851,6 +874,7 @@
   {
     "no": "24",
     "action": 11423,
+    "patch": "4.5",
     "spell": "投掷沙丁鱼",
     "level": 30,
     "icon": "003291.png",
@@ -883,6 +907,7 @@
   {
     "no": "25",
     "action": 11383,
+    "patch": "4.5",
     "spell": "鼻息",
     "level": 50,
     "icon": "003251.png",
@@ -907,6 +932,7 @@
   {
     "no": "26",
     "action": 11384,
+    "patch": "4.5",
     "spell": "4星吨",
     "level": 50,
     "icon": "003252.png",
@@ -925,6 +951,7 @@
   {
     "no": "27",
     "action": 11399,
+    "patch": "4.5",
     "spell": "诡异视线",
     "level": 50,
     "icon": "003267.png",
@@ -957,6 +984,7 @@
   {
     "no": "28",
     "action": 11388,
+    "patch": "4.5",
     "spell": "臭气",
     "level": 31,
     "icon": "003256.png",
@@ -999,6 +1027,7 @@
   {
     "no": "29",
     "action": 11424,
+    "patch": "4.5",
     "spell": "超硬化",
     "level": 50,
     "icon": "003292.png",
@@ -1030,6 +1059,7 @@
   {
     "no": "30",
     "action": 11417,
+    "patch": "4.5",
     "spell": "强力守护",
     "level": 1,
     "icon": "003285.png",
@@ -1047,6 +1077,7 @@
   {
     "no": "31",
     "action": 11412,
+    "patch": "4.5",
     "spell": "滑舌",
     "level": 14,
     "icon": "003280.png",
@@ -1095,6 +1126,7 @@
   {
     "no": "32",
     "action": 11410,
+    "patch": "4.5",
     "spell": "油性分泌物",
     "level": 24,
     "icon": "003278.png",
@@ -1119,6 +1151,7 @@
   {
     "no": "33",
     "action": 11419,
+    "patch": "4.5",
     "spell": "寒冰咆哮",
     "level": 38,
     "icon": "003287.png",
@@ -1150,6 +1183,7 @@
   {
     "no": "34",
     "action": 11420,
+    "patch": "4.5",
     "spell": "雷电咆哮",
     "level": 38,
     "icon": "003288.png",
@@ -1193,6 +1227,7 @@
   {
     "no": "35",
     "action": 11405,
+    "patch": "4.5",
     "spell": "导弹",
     "level": 50,
     "icon": "003273.png",
@@ -1211,6 +1246,7 @@
   {
     "no": "36",
     "action": 11397,
+    "patch": "4.5",
     "spell": "千针刺",
     "level": 24,
     "icon": "003265.png",
@@ -1241,6 +1277,7 @@
   {
     "no": "37",
     "action": 11422,
+    "patch": "4.5",
     "spell": "喷墨",
     "level": 50,
     "icon": "003290.png",
@@ -1259,6 +1296,7 @@
   {
     "no": "38",
     "action": 11425,
+    "patch": "4.5",
     "spell": "火投枪",
     "level": 50,
     "icon": "003293.png",
@@ -1277,6 +1315,7 @@
   {
     "no": "39",
     "action": 11415,
+    "patch": "4.5",
     "spell": "月之笛",
     "level": 1,
     "icon": "003283.png",
@@ -1294,6 +1333,7 @@
   {
     "no": "40",
     "action": 11413,
+    "patch": "4.5",
     "spell": "螺旋尾",
     "level": 50,
     "icon": "003281.png",
@@ -1324,6 +1364,7 @@
   {
     "no": "41",
     "action": 11394,
+    "patch": "4.5",
     "spell": "精神冲击",
     "level": 16,
     "icon": "003262.png",
@@ -1350,6 +1391,7 @@
   {
     "no": "42",
     "action": 11416,
+    "patch": "4.5",
     "spell": "死亡宣告",
     "level": 1,
     "icon": "003284.png",
@@ -1367,6 +1409,7 @@
   {
     "no": "43",
     "action": 11421,
+    "patch": "4.5",
     "spell": "惊奇光",
     "level": 45,
     "icon": "003289.png",
@@ -1397,6 +1440,7 @@
   {
     "no": "44",
     "action": 11426,
+    "patch": "4.5",
     "spell": "飞翎雨",
     "level": 50,
     "icon": "003294.png",
@@ -1415,6 +1459,7 @@
   {
     "no": "45",
     "action": 11427,
+    "patch": "4.5",
     "spell": "地火喷发",
     "level": 50,
     "icon": "003295.png",
@@ -1445,6 +1490,7 @@
   {
     "no": "46",
     "action": 11428,
+    "patch": "4.5",
     "spell": "山崩",
     "level": 50,
     "icon": "003296.png",
@@ -1469,6 +1515,7 @@
   {
     "no": "47",
     "action": 11429,
+    "patch": "4.5",
     "spell": "轰雷",
     "level": 50,
     "icon": "003297.png",
@@ -1493,6 +1540,7 @@
   {
     "no": "48",
     "action": 11430,
+    "patch": "4.5",
     "spell": "冰雪乱舞",
     "level": 50,
     "icon": "003298.png",
@@ -1511,6 +1559,7 @@
   {
     "no": "49",
     "action": 11431,
+    "patch": "4.5",
     "spell": "水神的面纱",
     "level": 50,
     "icon": "003299.png",
@@ -1535,6 +1584,7 @@
   {
     "no": "50",
     "action": 18295,
+    "patch": "5.15",
     "spell": "高山气流",
     "level": 59,
     "icon": "003300.png",
@@ -1565,6 +1615,7 @@
   {
     "no": "51",
     "action": 18296,
+    "patch": "5.15",
     "spell": "万变水波",
     "level": 60,
     "icon": "003301.png",
@@ -1595,6 +1646,7 @@
   {
     "no": "52",
     "action": 18297,
+    "patch": "5.15",
     "spell": "狂风暴雪",
     "level": 56,
     "icon": "003302.png",
@@ -1619,6 +1671,7 @@
   {
     "no": "53",
     "action": 18298,
+    "patch": "5.15",
     "spell": "生物电",
     "level": 50,
     "icon": "003303.png",
@@ -1643,6 +1696,7 @@
   {
     "no": "54",
     "action": 18299,
+    "patch": "5.15",
     "spell": "寒光",
     "level": 60,
     "icon": "003304.png",
@@ -1667,6 +1721,7 @@
   {
     "no": "55",
     "action": 18300,
+    "patch": "5.15",
     "spell": "深渊贯穿",
     "level": 58,
     "icon": "003305.png",
@@ -1694,6 +1749,7 @@
   {
     "no": "56",
     "action": 18301,
+    "patch": "5.15",
     "spell": "唧唧咋咋",
     "level": 50,
     "icon": "003306.png",
@@ -1718,6 +1774,7 @@
   {
     "no": "57",
     "action": 18302,
+    "patch": "5.15",
     "spell": "怪音波",
     "level": 59,
     "icon": "003307.png",
@@ -1742,6 +1799,7 @@
   {
     "no": "58",
     "action": 18303,
+    "patch": "5.15",
     "spell": "绒绒治疗",
     "level": 50,
     "icon": "003308.png",
@@ -1766,6 +1824,7 @@
   {
     "no": "59",
     "action": 18304,
+    "patch": "5.15",
     "spell": "哥布防御",
     "level": 60,
     "icon": "003309.png",
@@ -1792,6 +1851,7 @@
   {
     "no": "60",
     "action": 18305,
+    "patch": "5.15",
     "spell": "魔法锤",
     "level": 60,
     "icon": "003310.png",
@@ -1816,6 +1876,7 @@
   {
     "no": "61",
     "action": 18306,
+    "patch": "5.15",
     "spell": "防御指示",
     "level": 60,
     "icon": "003311.png",
@@ -1834,6 +1895,7 @@
   {
     "no": "62",
     "action": 18307,
+    "patch": "5.15",
     "spell": "蛙腿",
     "level": 59,
     "icon": "003312.png",
@@ -1859,6 +1921,7 @@
   {
     "no": "63",
     "action": 18308,
+    "patch": "5.15",
     "spell": "音爆",
     "level": 47,
     "icon": "003313.png",
@@ -1896,6 +1959,7 @@
   {
     "no": "64",
     "action": 18309,
+    "patch": "5.15",
     "spell": "口笛",
     "level": 56,
     "icon": "003314.png",
@@ -1920,6 +1984,7 @@
   {
     "no": "65",
     "action": 18310,
+    "patch": "5.15",
     "spell": "白骑士之旅",
     "level": 57,
     "icon": "003315.png",
@@ -1938,6 +2003,7 @@
   {
     "no": "66",
     "action": 18311,
+    "patch": "5.15",
     "spell": "黑骑士之旅",
     "level": 57,
     "icon": "003316.png",
@@ -1956,6 +2022,7 @@
   {
     "no": "67",
     "action": 18312,
+    "patch": "5.15",
     "spell": "5级即死",
     "level": 59,
     "icon": "003317.png",
@@ -1974,6 +2041,7 @@
   {
     "no": "68",
     "action": 18313,
+    "patch": "5.15",
     "spell": "火箭炮",
     "level": 60,
     "icon": "003318.png",
@@ -1992,6 +2060,7 @@
   {
     "no": "69",
     "action": 18314,
+    "patch": "5.15",
     "spell": "永恒射线",
     "level": 60,
     "icon": "003319.png",
@@ -2016,6 +2085,7 @@
   {
     "no": "70",
     "action": 18315,
+    "patch": "5.15",
     "spell": "仙人盾",
     "level": 50,
     "icon": "003320.png",
@@ -2034,6 +2104,7 @@
   {
     "no": "71",
     "action": 18316,
+    "patch": "5.15",
     "spell": "复仇冲击",
     "level": 60,
     "icon": "003321.png",
@@ -2051,6 +2122,7 @@
   {
     "no": "72",
     "action": 18317,
+    "patch": "5.15",
     "spell": "天使低语",
     "level": 60,
     "icon": "003322.png",
@@ -2068,6 +2140,7 @@
   {
     "no": "73",
     "action": 18318,
+    "patch": "5.15",
     "spell": "蜕皮",
     "level": 50,
     "icon": "003323.png",
@@ -2098,6 +2171,7 @@
   {
     "no": "74",
     "action": 18319,
+    "patch": "5.15",
     "spell": "逆流",
     "level": 56,
     "icon": "003324.png",
@@ -2128,6 +2202,7 @@
   {
     "no": "75",
     "action": 18320,
+    "patch": "5.15",
     "spell": "捕食",
     "level": 50,
     "icon": "003325.png",
@@ -2152,6 +2227,7 @@
   {
     "no": "76",
     "action": 18321,
+    "patch": "5.15",
     "spell": "小侦测",
     "level": 60,
     "icon": "003326.png",
@@ -2176,6 +2252,7 @@
   {
     "no": "77",
     "action": 18322,
+    "patch": "5.15",
     "spell": "以太复制",
     "level": 60,
     "icon": "003327.png",
@@ -2194,6 +2271,7 @@
   {
     "no": "78",
     "action": 18323,
+    "patch": "5.15",
     "spell": "穿甲散弹",
     "level": 53,
     "icon": "003328.png",
@@ -2218,6 +2296,7 @@
   {
     "no": "79",
     "action": 18324,
+    "patch": "5.15",
     "spell": "类星体",
     "level": 60,
     "icon": "003329.png",
@@ -2242,6 +2321,7 @@
   {
     "no": "80",
     "action": 18325,
+    "patch": "5.15",
     "spell": "正义飞踢",
     "level": 60,
     "icon": "003330.png",
@@ -2266,6 +2346,7 @@
   {
     "no": "81",
     "action": 23264,
+    "patch": "5.45",
     "spell_en": "Triple Trident",
     "spell": "渔叉三段",
     "level": 67,
@@ -2299,6 +2380,7 @@
   {
     "no": "82",
     "action": 23265,
+    "patch": "5.45",
     "spell_en": "Tingle",
     "spell": "哔哩哔哩",
     "level": 67,
@@ -2332,6 +2414,7 @@
   {
     "no": "83",
     "action": 23266,
+    "patch": "5.45",
     "spell_en": "Tatami-gaeshi",
     "spell": "掀地板之术",
     "level": 70,
@@ -2351,6 +2434,7 @@
   {
     "no": "84",
     "action": 23267,
+    "patch": "5.45",
     "spell_en": "Cold Fog",
     "spell": "彻骨雾寒",
     "level": 70,
@@ -2370,6 +2454,7 @@
   {
     "no": "85",
     "action": 23269,
+    "patch": "5.45",
     "spell_en": "Stotram",
     "spell": "赞歌",
     "level": 67,
@@ -2395,6 +2480,7 @@
   {
     "no": "86",
     "action": 23270,
+    "patch": "5.45",
     "spell_en": "Saintly Beam",
     "spell": "圣光射线",
     "level": 70,
@@ -2420,6 +2506,7 @@
   {
     "no": "87",
     "action": 23271,
+    "patch": "5.45",
     "spell_en": "Feculent Flood",
     "spell": "污泥泼洒",
     "level": 70,
@@ -2447,6 +2534,7 @@
   {
     "no": "88",
     "action": 23272,
+    "patch": "5.45",
     "spell_en": "Angel's Snack",
     "spell_ja": "天使のおやつ",
     "spell": "天使的点心",
@@ -2466,6 +2554,7 @@
   {
     "no": "89",
     "action": 23273,
+    "patch": "5.45",
     "spell_en": "Chelonian Gate",
     "spell": "玄结界",
     "level": 70,
@@ -2485,6 +2574,7 @@
   {
     "no": "90",
     "action": 23275,
+    "patch": "5.45",
     "spell_en": "The Rose of Destruction",
     "spell": "斗灵弹",
     "level": 70,
@@ -2504,6 +2594,7 @@
   {
     "no": "91",
     "action": 23276,
+    "patch": "5.45",
     "spell_en": "Basic Instinct",
     "spell": "斗争本能",
     "level": 24,
@@ -2535,6 +2626,7 @@
   {
     "no": "92",
     "action": 23277,
+    "patch": "5.45",
     "spell_en": "Ultravibration",
     "spell": "超振动",
     "level": 68,
@@ -2568,6 +2660,7 @@
   {
     "no": "93",
     "action": 23278,
+    "patch": "5.45",
     "spell_en": "Blaze",
     "spell": "冰焰",
     "level": 70,
@@ -2593,6 +2686,7 @@
   {
     "no": "94",
     "action": 23279,
+    "patch": "5.45",
     "spell_en": "Mustard Bomb",
     "spell": "芥末爆弹",
     "level": 70,
@@ -2618,6 +2712,7 @@
   {
     "no": "95",
     "action": 23280,
+    "patch": "5.45",
     "spell_en": "Dragon Force",
     "spell_ja": "ドラゴンフォース",
     "spell": "龙之力",
@@ -2637,6 +2732,7 @@
   {
     "no": "96",
     "action": 23281,
+    "patch": "5.45",
     "spell_en": "Aetherial Spark",
     "spell": "以太火花",
     "level": 69,
@@ -2670,6 +2766,7 @@
   {
     "no": "97",
     "action": 23282,
+    "patch": "5.45",
     "spell_en": "Hydro Pull",
     "spell": "水力吸引",
     "level": 70,
@@ -2689,6 +2786,7 @@
   {
     "no": "98",
     "action": 23283,
+    "patch": "5.45",
     "spell_en": "Malediction of Water",
     "spell": "水脉诅咒",
     "level": 70,
@@ -2708,6 +2806,7 @@
   {
     "no": "99",
     "action": 23284,
+    "patch": "5.45",
     "spell_en": "Choco Meteor",
     "spell": "陆行鸟陨石",
     "level": 53,
@@ -2739,6 +2838,7 @@
   {
     "no": "100",
     "action": 23285,
+    "patch": "5.45",
     "spell_en": "Matra Magic",
     "spell_ja": "マトラマジック",
     "spell": "马特拉魔术",
@@ -2758,6 +2858,7 @@
   {
     "no": "101",
     "action": 23286,
+    "patch": "5.45",
     "spell_en": "Peripheral Synthesis",
     "spell": "生成外设",
     "level": 70,
@@ -2783,6 +2884,7 @@
   {
     "no": "102",
     "action": 23287,
+    "patch": "5.45",
     "spell_en": "Both Ends",
     "spell": "如意大旋风",
     "level": 70,
@@ -2802,6 +2904,7 @@
   {
     "no": "103",
     "action": 23288,
+    "patch": "5.45",
     "spell_en": "Phantom Flurry",
     "spell": "鬼宿脚",
     "level": 70,
@@ -2827,6 +2930,7 @@
   {
     "no": "104",
     "action": 23290,
+    "patch": "5.45",
     "spell_en": "Nightbloom",
     "spell": "月下彼岸花",
     "level": 70,

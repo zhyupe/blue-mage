@@ -5,7 +5,6 @@
       <input type="number" max="70" min="1" :value="filterLevel" @input="handleInput">
       <div class="spell-level-order" :class="{ checked: orderByLevel }" @click="handleOrder(orderByLevel)">按等级排序</div>
     </div>
-    <div v-if="filterLevel > 60" style="padding-top: 10px; color: yellow; font-size: 14px;">国服尚未更新 5.45，信息仅供参考</div>
 
     <h3>学习途径过滤</h3>
     <ul>
