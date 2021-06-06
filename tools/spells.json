@@ -1,6 +1,7 @@
 [
   {
     "no": "1",
+    "action": 11385,
     "spell": "水炮",
     "level": 1,
     "icon": "Water_Cannon.png",
@@ -14,6 +15,7 @@
   },
   {
     "no": "2",
+    "action": 11402,
     "spell": "火炎放射",
     "level": 50,
     "icon": "Flame_Thrower.png",
@@ -34,6 +36,7 @@
   },
   {
     "no": "3",
+    "action": 11390,
     "spell": "水流吐息",
     "level": 50,
     "icon": "Aqua_Breath.png",
@@ -66,6 +69,7 @@
   },
   {
     "no": "4",
+    "action": 11389,
     "spell": "狂乱",
     "level": 50,
     "icon": "Flying_Frenzy.png",
@@ -89,6 +93,7 @@
   },
   {
     "no": "5",
+    "action": 11398,
     "spell": "钻头炮",
     "level": 46,
     "icon": "Drill_Cannons.png",
@@ -135,6 +140,7 @@
   },
   {
     "no": "6",
+    "action": 11387,
     "spell": "高压电流",
     "level": 50,
     "icon": "High_Voltage.png",
@@ -161,6 +167,7 @@
   },
   {
     "no": "7",
+    "action": 11401,
     "spell": "若隐若现",
     "level": 50,
     "icon": "Loom.png",
@@ -189,6 +196,7 @@
   },
   {
     "no": "8",
+    "action": 11407,
     "spell": "终极针",
     "level": 13,
     "icon": "Final_Sting.png",
@@ -215,6 +223,7 @@
   },
   {
     "no": "9",
+    "action": 11386,
     "spell": "苦闷之歌",
     "level": 50,
     "icon": "Song_of_Torment.png",
@@ -229,6 +238,7 @@
   },
   {
     "no": "10",
+    "action": 11404,
     "spell": "怒视",
     "level": 47,
     "icon": "Glower.png",
@@ -251,6 +261,7 @@
   },
   {
     "no": "11",
+    "action": 11391,
     "spell": "平原震裂",
     "level": 28,
     "icon": "Plaincracker.png",
@@ -313,6 +324,7 @@
   },
   {
     "no": "12",
+    "action": 11393,
     "spell": "怒发冲冠",
     "level": 20,
     "icon": "Bristle.png",
@@ -333,6 +345,7 @@
   },
   {
     "no": "13",
+    "action": 11406,
     "spell": "白风",
     "level": 1,
     "icon": "White_Wind.png",
@@ -352,6 +365,7 @@
   },
   {
     "no": "14",
+    "action": 11414,
     "spell": "5级石化",
     "level": 28,
     "icon": "Level_5_Petrify.png",
@@ -373,6 +387,7 @@
   },
   {
     "no": "15",
+    "action": 11400,
     "spell": "锋利菜刀",
     "level": 50,
     "icon": "Sharpened_Knife.png",
@@ -395,6 +410,7 @@
   },
   {
     "no": "16",
+    "action": 11418,
     "spell": "冰棘屏障",
     "level": 9,
     "icon": "Ice_Spikes.png",
@@ -427,6 +443,7 @@
   },
   {
     "no": "17",
+    "action": 11395,
     "spell": "吸血",
     "level": 7,
     "icon": "Blood_Drain.png",
@@ -531,6 +548,7 @@
   },
   {
     "no": "18",
+    "action": 11392,
     "spell": "橡果炸弹",
     "level": 12,
     "icon": "Acorn_Bomb.png",
@@ -588,6 +606,7 @@
   },
   {
     "no": "19",
+    "action": 11396,
     "spell": "投弹",
     "level": 5,
     "icon": "Bomb_Toss.png",
@@ -650,6 +669,7 @@
   },
   {
     "no": "20",
+    "action": 11411,
     "spell": "破防",
     "level": 1,
     "icon": "Off-guard.png",
@@ -663,6 +683,7 @@
   },
   {
     "no": "21",
+    "action": 11408,
     "spell": "自爆",
     "level": 12,
     "icon": "Self-destruct.png",
@@ -713,6 +734,7 @@
   },
   {
     "no": "22",
+    "action": 11409,
     "spell": "融合",
     "level": 1,
     "icon": "Transfusion.png",
@@ -726,6 +748,7 @@
   },
   {
     "no": "23",
+    "action": 11403,
     "spell": "拍掌",
     "level": 6,
     "icon": "Faze.png",
@@ -758,6 +781,7 @@
   },
   {
     "no": "24",
+    "action": 11423,
     "spell": "投掷沙丁鱼",
     "level": 30,
     "icon": "Flying_Sardine.png",
@@ -786,6 +810,7 @@
   },
   {
     "no": "25",
+    "action": 11383,
     "spell": "鼻息",
     "level": 50,
     "icon": "Snort.png",
@@ -806,6 +831,7 @@
   },
   {
     "no": "26",
+    "action": 11384,
     "spell": "4星吨",
     "level": 50,
     "icon": "4-tonze_Weight.png",
@@ -820,6 +846,7 @@
   },
   {
     "no": "27",
+    "action": 11399,
     "spell": "诡异视线",
     "level": 50,
     "icon": "The_Look.png",
@@ -848,6 +875,7 @@
   },
   {
     "no": "28",
+    "action": 11388,
     "spell": "臭气",
     "level": 31,
     "icon": "Bad_Breath.png",
@@ -886,6 +914,7 @@
   },
   {
     "no": "29",
+    "action": 11424,
     "spell": "超硬化",
     "level": 50,
     "icon": "Diamondback.png",
@@ -913,6 +942,7 @@
   },
   {
     "no": "30",
+    "action": 11417,
     "spell": "强力守护",
     "level": 1,
     "icon": "Mighty_Guard.png",
@@ -926,6 +956,7 @@
   },
   {
     "no": "31",
+    "action": 11412,
     "spell": "滑舌",
     "level": 14,
     "icon": "Sticky_Tongue.png",
@@ -970,6 +1001,7 @@
   },
   {
     "no": "32",
+    "action": 11410,
     "spell": "油性分泌物",
     "level": 24,
     "icon": "Toad_Oil.png",
@@ -990,6 +1022,7 @@
   },
   {
     "no": "33",
+    "action": 11419,
     "spell": "寒冰咆哮",
     "level": 38,
     "icon": "The_Ram's_Voice.png",
@@ -1017,6 +1050,7 @@
   },
   {
     "no": "34",
+    "action": 11420,
     "spell": "雷电咆哮",
     "level": 38,
     "icon": "The_Dragon's_Voice.png",
@@ -1056,6 +1090,7 @@
   },
   {
     "no": "35",
+    "action": 11405,
     "spell": "导弹",
     "level": 50,
     "icon": "Missile.png",
@@ -1070,6 +1105,7 @@
   },
   {
     "no": "36",
+    "action": 11397,
     "spell": "千针刺",
     "level": 24,
     "icon": "1000_Needles.png",
@@ -1096,6 +1132,7 @@
   },
   {
     "no": "37",
+    "action": 11422,
     "spell": "喷墨",
     "level": 50,
     "icon": "Ink_Jet.png",
@@ -1110,6 +1147,7 @@
   },
   {
     "no": "38",
+    "action": 11425,
     "spell": "火投枪",
     "level": 50,
     "icon": "Fire_Angon.png",
@@ -1124,6 +1162,7 @@
   },
   {
     "no": "39",
+    "action": 11415,
     "spell": "月之笛",
     "level": 1,
     "icon": "Moon_Flute.png",
@@ -1137,6 +1176,7 @@
   },
   {
     "no": "40",
+    "action": 11413,
     "spell": "螺旋尾",
     "level": 50,
     "icon": "Tail_Screw.png",
@@ -1163,6 +1203,7 @@
   },
   {
     "no": "41",
+    "action": 11394,
     "spell": "精神冲击",
     "level": 16,
     "icon": "Mind_Blast.png",
@@ -1185,6 +1226,7 @@
   },
   {
     "no": "42",
+    "action": 11416,
     "spell": "死亡宣告",
     "level": 1,
     "icon": "Doom.png",
@@ -1198,6 +1240,7 @@
   },
   {
     "no": "43",
+    "action": 11421,
     "spell": "惊奇光",
     "level": 45,
     "icon": "Peculiar_Light.png",
@@ -1224,6 +1267,7 @@
   },
   {
     "no": "44",
+    "action": 11426,
     "spell": "飞翎雨",
     "level": 50,
     "icon": "Feather_Rain.png",
@@ -1238,6 +1282,7 @@
   },
   {
     "no": "45",
+    "action": 11427,
     "spell": "地火喷发",
     "level": 50,
     "icon": "Eruption.png",
@@ -1264,6 +1309,7 @@
   },
   {
     "no": "46",
+    "action": 11428,
     "spell": "山崩",
     "level": 50,
     "icon": "Mountain_Buster.png",
@@ -1284,6 +1330,7 @@
   },
   {
     "no": "47",
+    "action": 11429,
     "spell": "轰雷",
     "level": 50,
     "icon": "Shock_Strike.png",
@@ -1304,6 +1351,7 @@
   },
   {
     "no": "48",
+    "action": 11430,
     "spell": "冰雪乱舞",
     "level": 50,
     "icon": "Glass_Dance.png",
@@ -1318,6 +1366,7 @@
   },
   {
     "no": "49",
+    "action": 11431,
     "spell": "水神的面纱",
     "level": 50,
     "icon": "Veil_of_the_Whorl.png",
@@ -1338,6 +1387,7 @@
   },
   {
     "no": "50",
+    "action": 18295,
     "spell": "高山气流",
     "level": 59,
     "icon": "003300.png",
@@ -1364,6 +1414,7 @@
   },
   {
     "no": "51",
+    "action": 18296,
     "spell": "万变水波",
     "level": 60,
     "icon": "003301.png",
@@ -1390,6 +1441,7 @@
   },
   {
     "no": "52",
+    "action": 18297,
     "spell": "狂风暴雪",
     "level": 56,
     "icon": "003302.png",
@@ -1410,6 +1462,7 @@
   },
   {
     "no": "53",
+    "action": 18298,
     "spell": "生物电",
     "level": 50,
     "icon": "003303.png",
@@ -1430,6 +1483,7 @@
   },
   {
     "no": "54",
+    "action": 18299,
     "spell": "寒光",
     "level": 60,
     "icon": "003304.png",
@@ -1450,6 +1504,7 @@
   },
   {
     "no": "55",
+    "action": 18300,
     "spell": "深渊贯穿",
     "level": 58,
     "icon": "003305.png",
@@ -1473,6 +1528,7 @@
   },
   {
     "no": "56",
+    "action": 18301,
     "spell": "唧唧咋咋",
     "level": 50,
     "icon": "003306.png",
@@ -1493,6 +1549,7 @@
   },
   {
     "no": "57",
+    "action": 18302,
     "spell": "怪音波",
     "level": 59,
     "icon": "003307.png",
@@ -1513,6 +1570,7 @@
   },
   {
     "no": "58",
+    "action": 18303,
     "spell": "绒绒治疗",
     "level": 50,
     "icon": "003308.png",
@@ -1533,6 +1591,7 @@
   },
   {
     "no": "59",
+    "action": 18304,
     "spell": "哥布防御",
     "level": 60,
     "icon": "003309.png",
@@ -1555,6 +1614,7 @@
   },
   {
     "no": "60",
+    "action": 18305,
     "spell": "魔法锤",
     "level": 60,
     "icon": "003310.png",
@@ -1575,6 +1635,7 @@
   },
   {
     "no": "61",
+    "action": 18306,
     "spell": "防御指示",
     "level": 60,
     "icon": "003311.png",
@@ -1589,6 +1650,7 @@
   },
   {
     "no": "62",
+    "action": 18307,
     "spell": "蛙腿",
     "level": 59,
     "icon": "003312.png",
@@ -1610,6 +1672,7 @@
   },
   {
     "no": "63",
+    "action": 18308,
     "spell": "音爆",
     "level": 47,
     "icon": "003313.png",
@@ -1643,6 +1706,7 @@
   },
   {
     "no": "64",
+    "action": 18309,
     "spell": "口笛",
     "level": 56,
     "icon": "003314.png",
@@ -1663,6 +1727,7 @@
   },
   {
     "no": "65",
+    "action": 18310,
     "spell": "白骑士之旅",
     "level": 57,
     "icon": "003315.png",
@@ -1677,6 +1742,7 @@
   },
   {
     "no": "66",
+    "action": 18311,
     "spell": "黑骑士之旅",
     "level": 57,
     "icon": "003316.png",
@@ -1691,6 +1757,7 @@
   },
   {
     "no": "67",
+    "action": 18312,
     "spell": "5级即死",
     "level": 59,
     "icon": "003317.png",
@@ -1705,6 +1772,7 @@
   },
   {
     "no": "68",
+    "action": 18313,
     "spell": "火箭炮",
     "level": 60,
     "icon": "003318.png",
@@ -1719,6 +1787,7 @@
   },
   {
     "no": "69",
+    "action": 18314,
     "spell": "永恒射线",
     "level": 60,
     "icon": "003319.png",
@@ -1739,6 +1808,7 @@
   },
   {
     "no": "70",
+    "action": 18315,
     "spell": "仙人盾",
     "level": 50,
     "icon": "003320.png",
@@ -1753,6 +1823,7 @@
   },
   {
     "no": "71",
+    "action": 18316,
     "spell": "复仇冲击",
     "level": 60,
     "icon": "003321.png",
@@ -1766,6 +1837,7 @@
   },
   {
     "no": "72",
+    "action": 18317,
     "spell": "天使低语",
     "level": 60,
     "icon": "003322.png",
@@ -1779,6 +1851,7 @@
   },
   {
     "no": "73",
+    "action": 18318,
     "spell": "蜕皮",
     "level": 50,
     "icon": "003323.png",
@@ -1805,6 +1878,7 @@
   },
   {
     "no": "74",
+    "action": 18319,
     "spell": "逆流",
     "level": 56,
     "icon": "003324.png",
@@ -1831,6 +1905,7 @@
   },
   {
     "no": "75",
+    "action": 18320,
     "spell": "捕食",
     "level": 50,
     "icon": "003325.png",
@@ -1851,6 +1926,7 @@
   },
   {
     "no": "76",
+    "action": 18321,
     "spell": "小侦测",
     "level": 60,
     "icon": "003326.png",
@@ -1871,6 +1947,7 @@
   },
   {
     "no": "77",
+    "action": 18322,
     "spell": "以太复制",
     "level": 60,
     "icon": "003327.png",
@@ -1885,6 +1962,7 @@
   },
   {
     "no": "78",
+    "action": 18323,
     "spell": "穿甲散弹",
     "level": 53,
     "icon": "003328.png",
@@ -1905,6 +1983,7 @@
   },
   {
     "no": "79",
+    "action": 18324,
     "spell": "类星体",
     "level": 60,
     "icon": "003329.png",
@@ -1925,6 +2004,7 @@
   },
   {
     "no": "80",
+    "action": 18325,
     "spell": "正义飞踢",
     "level": 60,
     "icon": "003330.png",
@@ -1945,6 +2025,7 @@
   },
   {
     "no": "81",
+    "action": 23264,
     "spell_en": "Triple Trident",
     "spell": "渔叉三段",
     "level": 67,
@@ -1974,6 +2055,7 @@
   },
   {
     "no": "82",
+    "action": 23265,
     "spell_en": "Tingle",
     "spell": "哔哩哔哩",
     "level": 67,
@@ -2003,6 +2085,7 @@
   },
   {
     "no": "83",
+    "action": 23266,
     "spell_en": "Tatami-gaeshi",
     "spell": "掀地板之术",
     "level": 70,
@@ -2018,6 +2101,7 @@
   },
   {
     "no": "84",
+    "action": 23267,
     "spell_en": "Cold Fog",
     "spell": "彻骨雾寒",
     "level": 70,
@@ -2033,6 +2117,7 @@
   },
   {
     "no": "85",
+    "action": 23269,
     "spell_en": "Stotram",
     "spell": "赞歌",
     "level": 67,
@@ -2054,6 +2139,7 @@
   },
   {
     "no": "86",
+    "action": 23270,
     "spell_en": "Saintly Beam",
     "spell": "圣光射线",
     "level": 70,
@@ -2075,8 +2161,9 @@
   },
   {
     "no": "87",
+    "action": 23271,
     "spell_en": "Feculent Flood",
-    "spell": "污泥破散",
+    "spell": "污泥泼洒",
     "level": 70,
     "icon": "003338.png",
     "method": [
@@ -2098,9 +2185,10 @@
   },
   {
     "no": "88",
+    "action": 23272,
     "spell_en": "Angel's Snack",
     "spell_ja": "天使のおやつ",
-    "spell": "Angel's Snack / 天使のおやつ",
+    "spell": "天使的点心",
     "level": 70,
     "icon": "003339.png",
     "method": [
@@ -2113,6 +2201,7 @@
   },
   {
     "no": "89",
+    "action": 23273,
     "spell_en": "Chelonian Gate",
     "spell": "玄结界",
     "level": 70,
@@ -2128,6 +2217,7 @@
   },
   {
     "no": "90",
+    "action": 23275,
     "spell_en": "The Rose of Destruction",
     "spell": "斗灵弹",
     "level": 70,
@@ -2143,6 +2233,7 @@
   },
   {
     "no": "91",
+    "action": 23276,
     "spell_en": "Basic Instinct",
     "spell": "斗争本能",
     "level": 24,
@@ -2170,6 +2261,7 @@
   },
   {
     "no": "92",
+    "action": 23277,
     "spell_en": "Ultravibration",
     "spell": "超振动",
     "level": 68,
@@ -2199,6 +2291,7 @@
   },
   {
     "no": "93",
+    "action": 23278,
     "spell_en": "Blaze",
     "spell": "冰焰",
     "level": 70,
@@ -2220,6 +2313,7 @@
   },
   {
     "no": "94",
+    "action": 23279,
     "spell_en": "Mustard Bomb",
     "spell": "芥末爆弹",
     "level": 70,
@@ -2241,9 +2335,10 @@
   },
   {
     "no": "95",
+    "action": 23280,
     "spell_en": "Dragon Force",
     "spell_ja": "ドラゴンフォース",
-    "spell": "Dragon Force / ドラゴンフォース",
+    "spell": "龙之力",
     "level": 70,
     "icon": "003347.png",
     "method": [
@@ -2256,6 +2351,7 @@
   },
   {
     "no": "96",
+    "action": 23281,
     "spell_en": "Aetherial Spark",
     "spell": "以太火花",
     "level": 69,
@@ -2285,6 +2381,7 @@
   },
   {
     "no": "97",
+    "action": 23282,
     "spell_en": "Hydro Pull",
     "spell": "水力吸引",
     "level": 70,
@@ -2300,6 +2397,7 @@
   },
   {
     "no": "98",
+    "action": 23283,
     "spell_en": "Malediction of Water",
     "spell": "水脉诅咒",
     "level": 70,
@@ -2315,6 +2413,7 @@
   },
   {
     "no": "99",
+    "action": 23284,
     "spell_en": "Choco Meteor",
     "spell": "陆行鸟陨石",
     "level": 53,
@@ -2342,9 +2441,10 @@
   },
   {
     "no": "100",
+    "action": 23285,
     "spell_en": "Matra Magic",
     "spell_ja": "マトラマジック",
-    "spell": "Matra Magic / マトラマジック",
+    "spell": "马特拉魔术",
     "level": 70,
     "icon": "003352.png",
     "method": [
@@ -2357,6 +2457,7 @@
   },
   {
     "no": "101",
+    "action": 23286,
     "spell_en": "Peripheral Synthesis",
     "spell": "生成外设",
     "level": 70,
@@ -2378,6 +2479,7 @@
   },
   {
     "no": "102",
+    "action": 23287,
     "spell_en": "Both Ends",
     "spell": "如意大旋风",
     "level": 70,
@@ -2393,6 +2495,7 @@
   },
   {
     "no": "103",
+    "action": 23288,
     "spell_en": "Phantom Flurry",
     "spell": "鬼宿脚",
     "level": 70,
@@ -2414,6 +2517,7 @@
   },
   {
     "no": "104",
+    "action": 23290,
     "spell_en": "Nightbloom",
     "spell": "月下彼岸花",
     "level": 70,
