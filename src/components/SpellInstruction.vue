@@ -133,24 +133,4 @@ export default {
   vertical-align: middle;
 }
 
-.inst-version-tag {
-  background-color: rgba(144, 103, 173);
-  font-size: 90%;
-  color: black !important;
-  font-weight: bold;
-  padding: 2px;
-  border-radius: 5px;
-}
-
-.inst-version-tag-4-5 {
-  background-color: rgba(228, 101, 124);
-}
-
-.inst-version-tag-5-15 {
-  background-color: rgba(127, 15, 170);
-}
-
-.inst-version-tag-5-45 {
-  background-color: rgba(144, 103, 173);
-}
 </style>
