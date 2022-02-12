@@ -1,100 +1,116 @@
+<script setup lang="ts">
+import type { SpellStatus, SpellStatusArray } from "@/lib/interface";
+import { spells } from "@/lib/spell";
+import { computed, ref } from "vue";
+import { spellIcon, spellIconSrcset } from "../icon";
+
+const props = defineProps<{
+  spellStatus: SpellStatusArray;
+}>();
+const emit = defineEmits<{
+  (e: "change", i: number, status: SpellStatus): void;
+}>();
+
+const pageSize = 16;
+const pages = Math.ceil(spells.length / pageSize);
+
+const page = ref(1);
+const showSpells = computed(() =>
+  spells.slice((page.value - 1) * pageSize, page.value * pageSize)
+);
+
+const countByPatch = (() => {
+  const result: Record<string, number> = {};
+  spells.forEach((i) => {
+    result[i.patch] = (result[i.patch] || 0) + 1;
+  });
+  return result;
+})();
+const patches = Object.keys(countByPatch);
+
+const progressByPatch = computed(() => {
+  const result: Record<string, number> = {};
+  spells.forEach((i, index) => {
+    result[i.patch] =
+      (result[i.patch] || 0) + (props.spellStatus[index] ? 1 : 0);
+  });
+  return result;
+});
+
+const progressAll = computed(() => {
+  return props.spellStatus.filter((i) => i).length;
+});
+
+const handleClick = (i: number) => {
+  setSpell(i, !props.spellStatus[i]);
+};
+
+const setSpell = (i: number, status: boolean) => {
+  const val = status ? 1 : 0;
+  if (props.spellStatus[i] === val) return;
+  emit("change", i, val);
+};
+
+const batchSetSpell = (status: boolean, patch?: string) => {
+  for (let i = 0; i < spells.length; i++) {
+    if (patch && spells[i].patch !== patch) continue;
+    setSpell(i, status);
+  }
+};
+</script>
+
 <template>
   <div class="spell-list">
     <h3>青魔法书</h3>
     <div class="spell-list-pager">
-      <span v-for="p in pages" :key="p" @click="page = p" :class="{ active: page === p }">{{p}}</span>
+      <span
+        v-for="p in pages"
+        :key="p"
+        @click="page = p"
+        :class="{ active: page === p }"
+        >{{ p }}</span
+      >
     </div>
-    <div v-for="(s, i) in showSpells" :key="s.no" class="spell" :class="{
-      lighter: (i % 2) === (Math.floor(i / 4) % 2),
-      learned: !!s.learned
-    }" @click="handleClick(s, s.no - 1)" :title="s.spell" :data-ck-action-id="s.action">
-      <img :src="spellIcon(s)" :srcset="spellIconSrcset(s)">
-      <span>{{s.no}}</span>
+    <div
+      v-for="(s, i) in showSpells"
+      :key="s.no"
+      class="spell"
+      :class="{
+        lighter: i % 2 === Math.floor(i / 4) % 2,
+        learned: !!props.spellStatus[i],
+      }"
+      @click="handleClick(i)"
+      :title="s.spell"
+      :data-ck-action-id="s.action"
+    >
+      <img :src="spellIcon(s)" :srcset="spellIconSrcset(s)" />
+      <span>{{ s.no }}</span>
     </div>
     <p class="spell-list-note">选中（已学习）的技能不会出现在获取方式中</p>
     <h3>进度</h3>
     <div class="spell-progress">
       <span>总体</span>
-      <button @click="selectNone()">清空</button>
+      <button @click="batchSetSpell(false)">清空</button>
       <progress :value="progressAll" :max="spells.length"></progress>
-      <button @click="selectAll()">全选</button>
+      <button @click="batchSetSpell(true)">全选</button>
     </div>
-    <div v-for="(patch) in patches" :key="patch" class="spell-progress">
+    <div v-for="patch in patches" :key="patch" class="spell-progress">
       <span>
-        <span class="inst-version-tag" :class="{ ['inst-version-tag-' + patch.replace(/\./g, '-')]: true }">{{ patch }}</span>
+        <span
+          class="inst-version-tag"
+          :class="{ ['inst-version-tag-' + patch.replace(/\./g, '-')]: true }"
+          >{{ patch }}</span
+        >
       </span>
-      <button @click="selectNone(patch)">清空</button>
-      <progress :value="progressByPatch[patch]" :max="countByPatch[patch]"></progress>
-      <button @click="selectAll(patch)">全选</button>
+      <button @click="batchSetSpell(false, patch)">清空</button>
+      <progress
+        :value="progressByPatch[patch]"
+        :max="countByPatch[patch]"
+      ></progress>
+      <button @click="batchSetSpell(true, patch)">全选</button>
     </div>
   </div>
 </template>
-
-<script>
-import { spellIcon, spellIconSrcset } from '../icon'
-
-export default {
-  props: {
-    spells: Array
-  },
-  data () {
-    return {
-      page: 1
-    }
-  },
-  computed: {
-    pages () {
-      return Math.ceil(this.spells.length / 16)
-    },
-    showSpells () {
-      return this.spells.slice((this.page - 1) * 16, this.page * 16)
-    },
-    patches () {
-      return [...new Set(this.spells.map((i) => i.patch))]
-    },
-    countByPatch () {
-      const result = {}
-      this.spells.forEach((i) => {
-        result[i.patch] = (result[i.patch] || 0) + 1
-      })
-      return result
-    },
-    progressByPatch () {
-      const result = {}
-      this.spells.forEach((i) => {
-        result[i.patch] = (result[i.patch] || 0) + (i.learned ? 1 : 0)
-      })
-      return result
-    },
-    progressAll () {
-      return this.spells.filter((i) => i.learned).length
-    },
-  },
-  methods: {
-    handleClick (s, i) {
-      this.setSpell(i, !s.learned)
-    },
-    setSpell (i, status) {
-      if (this.spells[i].learned == status) return
-      this.spells[i].learned = status
-      this.$emit('change', i, status)
-    },
-    selectNone (patch) {
-      for(let i = 0; i < this.spells.length; i++) {
-        if (patch && this.spells[i].patch !== patch) continue
-        this.setSpell(i, false)
-      }
-    },
-    selectAll (patch) {
-      for(let i = 0; i < this.spells.length; i++) {
-        if (patch && this.spells[i].patch !== patch) continue
-        this.setSpell(i, true)
-      }
-    },
-    spellIcon, spellIconSrcset
-  }
-}
-</script>
 
 <style>
 .spell-list {
@@ -169,7 +185,7 @@ export default {
   height: 32px;
   border-radius: 3px;
   box-shadow: 0 2px 2px #070707;
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .spell.learned img {
@@ -189,7 +205,7 @@ export default {
   display: block;
   width: 8px;
   height: 8px;
-  content: '';
+  content: "";
   background: #222;
   border: 2px solid #222;
 }
@@ -201,5 +217,4 @@ export default {
 .spell-list-note {
   font-size: 14px;
 }
-
 </style>

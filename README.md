@@ -1,29 +1,10 @@
-# blue-mage
+[![GitHub issues](https://img.shields.io/github/issues/thewakingsands/blue-mage)](https://github.com/thewakingsands/blue-mage/issues)
+[![GitHub license](https://img.shields.io/github/license/thewakingsands/blue-mage)](https://github.com/thewakingsands/blue-mage/blob/master/LICENSE)
 
-## Project setup
-```
-npm install
-```
+A book for blue mages.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Usage
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+| Provider     | URL                                         |
+| ------------ | ------------------------------------------- |
+| Github Pages | https://thewakingsands.github.io/blue-mage/ |

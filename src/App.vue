@@ -1,5 +1,73 @@
+<script setup lang="ts">
+import SpellList from "./components/SpellList.vue";
+import SpellInst from "./components/SpellInstruction.vue";
+import SpellFilter from "./components/SpellFilter.vue";
+import spells from "../tools/spells.json";
+import { loadSetting, saveSetting } from "./lib/setting";
+import { onBeforeMount, ref } from "vue";
+import type { SpellType } from "./lib/spell";
+import type {
+  FilterTypes,
+  SpellStatus,
+  SpellStatusArray,
+} from "./lib/interface";
+
+const spellStatus = ref<SpellStatusArray>([]);
+const filterTypes = ref<FilterTypes>({
+  special: true,
+  map: true,
+  fate: true,
+  dungeon: true,
+  trail: true,
+  raid: true,
+});
+const filterLevel = ref(70);
+const orderByLevel = ref(false);
+
+onBeforeMount(() => {
+  let statusArr = loadSetting<SpellStatusArray>("spell-status") || [];
+  if (!Array.isArray(statusArr)) {
+    statusArr = [];
+  }
+
+  spellStatus.value = statusArr;
+  filterTypes.value = {
+    ...filterTypes.value,
+    ...(loadSetting("filter-types") || {}),
+  };
+  filterLevel.value = loadSetting("filter-level") || 70;
+  orderByLevel.value = loadSetting("order-by-level") || false;
+});
+
+const handleStatusChange = (index: number, learned: SpellStatus) => {
+  const statusArr: SpellStatusArray = spells.map((_, i) =>
+    i === index ? learned : spellStatus.value[i] || 0
+  );
+  saveSetting("spell-status", statusArr);
+  spellStatus.value = statusArr;
+};
+
+const handleTypeChange = (type: SpellType, checked: boolean) => {
+  filterTypes.value = {
+    ...filterTypes.value,
+    [type]: checked,
+  };
+  saveSetting("filter-types", filterTypes.value);
+};
+
+const handleLevelChange = (val: number) => {
+  filterLevel.value = val;
+  saveSetting("filter-level", val);
+};
+
+const handleOrderChange = (val: boolean) => {
+  orderByLevel.value = val;
+  saveSetting("order-by-level", val);
+};
+</script>
+
 <template>
-  <div id="app">
+  <section>
     <aside>
       <SpellFilter
         :filterTypes="filterTypes"
@@ -9,115 +77,21 @@
         @levelChange="handleLevelChange"
         @orderChange="handleOrderChange"
       />
-      <SpellList :spells="spells" @change="handleStatusChange" />
+      <SpellList
+        :spells="spells"
+        :spellStatus="spellStatus"
+        @change="handleStatusChange"
+      />
     </aside>
     <SpellInst
       :filterTypes="filterTypes"
       :filterLevel="filterLevel"
       :spells="spells"
+      :spellStatus="spellStatus"
       :orderByLevel="orderByLevel"
     />
-  </div>
+  </section>
 </template>
-
-<script>
-import SpellList from './components/SpellList.vue'
-import SpellInst from './components/SpellInstruction.vue'
-import SpellFilter from './components/SpellFilter.vue'
-import spells from '../tools/spells.json'
-
-const loadSetting = function (key) {
-  let text
-  if (localStorage) {
-    text = localStorage.getItem(key)
-  } else {
-    let cookie = document.cookie
-    let pos = cookie.indexOf(key + '=')
-    if (pos >= 0) {
-      pos += key.length + 1
-      let endPos = cookie.indexOf(';', pos)
-      text = cookie.substr(pos, endPos === -1 ? undefined : (endPos - pos))
-    }
-  }
-
-  if (!text) return
-
-  try {
-    return JSON.parse(text)
-  } catch (e) {
-    return
-  }
-}
-
-const saveSetting = function (key, value) {
-  value = JSON.stringify(value)
-
-  if (localStorage) {
-    localStorage.setItem(key, value)
-  } else {
-    let expire = new Date()
-    expire.setFullYear(expire.getFullYear() + 10)
-    document.cookie = `${key}=${value};expires=${expire.toUTCString()};path=/`
-  }
-}
-
-const loadSpellStatus = function () {
-  let statusArr = loadSetting('spell-status') || []
-
-  if (!Array.isArray(statusArr)) {
-    statusArr = []
-  }
-
-  spells.forEach((row, index) => {
-    row.learned = !!statusArr[index]
-  })
-}
-
-loadSpellStatus()
-
-export default {
-  name: 'app',
-  data () {
-    return {
-      spells,
-      filterTypes: Object.assign({
-        special: true,
-        map: true,
-        fate: true,
-        dungeon: true,
-        trail: true,
-        raid: true,
-      }, loadSetting('filter-types') || {}),
-      filterLevel: loadSetting('filter-level') || 70,
-      orderByLevel: loadSetting('order-by-level') || false
-    }
-  },
-  components: {
-    SpellList,
-    SpellInst,
-    SpellFilter
-  },
-  methods: {
-    handleStatusChange (index, learned) {
-      spells[index].learned = learned
-      let statusArr = spells.map(({ learned }) => learned ? 1 : 0)
-      saveSetting('spell-status', statusArr)
-    },
-    handleTypeChange (type, checked) {
-      this.$set(this.filterTypes, type, checked)
-      saveSetting('filter-types', this.filterTypes)
-    },
-    handleLevelChange (val) {
-      this.filterLevel = val
-      saveSetting('filter-level', val)
-    },
-    handleOrderChange (val) {
-      this.orderByLevel = val
-      saveSetting('order-by-level', val)
-    }
-  }
-}
-</script>
 
 <style>
 body {
@@ -127,7 +101,7 @@ body {
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 

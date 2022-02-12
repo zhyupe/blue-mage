@@ -1,46 +1,71 @@
+<script setup lang="ts">
+import type { FilterTypes } from "@/lib/interface";
+import type { SpellType } from "@/lib/spell";
+
+const props = defineProps<{
+  filterTypes: FilterTypes;
+  filterLevel: number;
+  orderByLevel: boolean;
+}>();
+
+const emit = defineEmits<{
+  (e: "levelChange", val: number): void;
+  (e: "typeChange", val: SpellType, checked: boolean): void;
+  (e: "orderChange", val: boolean): void;
+}>();
+
+const handleInput = (e: Event) => {
+  let val = +(e?.target as any).value;
+  if (isNaN(val)) val = 70;
+  emit("levelChange", val);
+};
+
+const handleClick = (type: SpellType, checked: boolean) => {
+  emit("typeChange", type, !checked);
+};
+
+const handleOrder = (order: boolean) => {
+  emit("orderChange", !order);
+};
+</script>
+
 <template>
   <div class="spell-filter">
     <h3>角色等级</h3>
     <div class="spell-level">
-      <input type="number" max="70" min="1" :value="filterLevel" @input="handleInput">
-      <div class="spell-level-order" :class="{ checked: orderByLevel }" @click="handleOrder(orderByLevel)">按等级排序</div>
+      <input
+        type="number"
+        max="70"
+        min="1"
+        :value="props.filterLevel"
+        @input="handleInput"
+      />
+      <div
+        class="spell-level-order"
+        :class="{ checked: props.orderByLevel }"
+        @click="handleOrder(props.orderByLevel)"
+      >
+        按等级排序
+      </div>
     </div>
 
     <h3>学习途径过滤</h3>
     <ul>
-      <li v-for="(checked, type, i) in filterTypes" :key="type" class="type" :class="{
-        lighter: (i % 2) === 0,
-        checked: checked
-      }" @click="handleClick(type, checked)">
-        <img :src="`icons/type_${type}.png`">
+      <li
+        v-for="(checked, type, i) in filterTypes"
+        :key="type"
+        class="type"
+        :class="{
+          lighter: i % 2 === 0,
+          checked: checked,
+        }"
+        @click="handleClick(type, checked)"
+      >
+        <img :src="`icons/type_${type}.png`" />
       </li>
     </ul>
   </div>
 </template>
-
-<script>
-export default {
-  props: {
-    filterTypes: Object,
-    filterLevel: Number,
-    orderByLevel: Boolean
-  },
-
-  methods: {
-    handleInput (e) {
-      let val = +e.target.value
-      if (isNaN(val)) val = 70
-      this.$emit('levelChange', val)
-    },
-    handleClick (type, checked) {
-      this.$emit('typeChange', type, !checked)
-    },
-    handleOrder (order) {
-      this.$emit('orderChange', !order)
-    }
-  }
-}
-</script>
 
 <style>
 .spell-filter {
@@ -100,13 +125,14 @@ export default {
   background: #373737;
 }
 
-.spell-filter .type::after, .spell-level-order::before {
+.spell-filter .type::after,
+.spell-level-order::before {
   display: block;
   width: 8px;
   height: 8px;
-  content: '';
+  content: "";
   background: #222;
-  border: 1px solid rgba(255, 255, 255, .6);
+  border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .spell-level-order::before {
@@ -117,8 +143,8 @@ export default {
   margin-top: 6px;
 }
 
-.spell-filter .type.checked::after, .spell-level-order.checked::before {
+.spell-filter .type.checked::after,
+.spell-level-order.checked::before {
   background: #ffbe31;
 }
-
 </style>
